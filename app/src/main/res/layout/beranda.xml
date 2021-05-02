@@ -6,24 +6,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
+    <com.veeyaar.supergradienttextview.GradientTextView
         android:id="@+id/textView4"
         android:layout_width="83dp"
         android:layout_height="31dp"
         android:layout_marginStart="30dp"
-        android:layout_marginLeft="30dp"
+        android:layout_marginTop="60dp"
         android:layout_marginEnd="30dp"
-        android:layout_marginRight="30dp"
         android:width="161dp"
         android:height="26dp"
-        android:text="@string/beranda"
+        android:text="Beranda"
+        android:textAllCaps="false"
         android:textSize="20dp"
         android:textStyle="bold"
+        app:endColor="@color/color5"
+        app:isVertical="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="65dp"
-        />
+        app:layout_constraintTop_toTopOf="parent"
+        app:startColor="@color/color4"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button1"
@@ -39,7 +41,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView4"
         tools:ignore="MissingConstraints"
         android:background="@drawable/button"
-        />
+        android:textAllCaps="false"/>
 
     <Button
         android:id="@+id/button2"
@@ -48,12 +50,13 @@
         android:layout_marginTop="40dp"
         android:width="346dp"
         android:height="75dp"
+        android:background="@drawable/button"
         android:text="Jenis Pahlawan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button1"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="32dp"
-        android:background="@drawable/button"
-        />
+        android:textAllCaps="false"/>
 
     <Button
         android:id="@+id/button3"
@@ -62,11 +65,12 @@
         android:layout_marginTop="40dp"
         android:width="346dp"
         android:height="75dp"
+        android:background="@drawable/button"
         android:text="Kuis"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button2"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="32dp"
-        android:background="@drawable/button"
-        />
+        android:textAllCaps="false"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
