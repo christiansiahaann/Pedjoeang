@@ -13,8 +13,8 @@
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/intro2"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="86dp"
-        tools:layout_editor_absoluteY="159dp" />
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="103dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -24,11 +24,11 @@
         android:textSize="20dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.542" />
+        app:layout_constraintVertical_bias="0.517" />
 
     <TextView
         android:id="@+id/textView"
@@ -36,10 +36,10 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:text="Mempelajari Kisah-Kisah Pahlawan di \n Indonesia Secara Mendalam"
-        android:textSize="15dp"
         android:textColor="@color/color2"
+        android:textSize="15dp"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteX="78dp"
         tools:layout_editor_absoluteY="424dp" />
 
     <Button
@@ -49,8 +49,34 @@
         android:background="@color/color1"
         android:text="Lanjut"
         android:textColor="@color/color3"
-        tools:layout_editor_absoluteX="260dp"
-        tools:layout_editor_absoluteY="656dp"
+        tools:layout_editor_absoluteX="301dp"
+        tools:layout_editor_absoluteY="655dp"
         tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView4_1"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        app:srcCompat="@drawable/bulat_abu"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="666dp" />
+
+    <ImageView
+        android:id="@+id/imageView4_2"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        app:srcCompat="@drawable/bulat_warna"
+        tools:layout_editor_absoluteX="193dp"
+        tools:layout_editor_absoluteY="666dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        app:srcCompat="@drawable/bulat_abu"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="247dp"
+        tools:layout_editor_absoluteY="666dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
