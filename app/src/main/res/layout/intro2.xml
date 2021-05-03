@@ -14,7 +14,7 @@
         app:srcCompat="@drawable/intro2"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="59dp"
-        tools:layout_editor_absoluteY="103dp" />
+        tools:layout_editor_absoluteY="105dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -24,23 +24,23 @@
         android:textSize="20dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.517" />
+        app:layout_constraintVertical_bias="0.535" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
-        android:text="Mempelajari Kisah-Kisah Pahlawan di \n Indonesia Secara Mendalam"
+        android:text="Mempelajari Kisah-Kisah Pahlawan di\n Indonesia Secara Mendalam"
         android:textColor="@color/color2"
         android:textSize="15dp"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="78dp"
-        tools:layout_editor_absoluteY="424dp" />
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="425dp" />
 
     <Button
         android:id="@+id/button2"
