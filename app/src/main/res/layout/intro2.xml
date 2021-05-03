@@ -68,7 +68,8 @@
         android:layout_height="25dp"
         app:srcCompat="@drawable/bulat_warna"
         tools:layout_editor_absoluteX="193dp"
-        tools:layout_editor_absoluteY="666dp" />
+        tools:layout_editor_absoluteY="666dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView5"
