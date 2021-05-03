@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/home"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+
+    <item android:id="@+id/favorit"
+        android:icon="@drawable/ic_favorit"
+        android:title="Profile" />
+
+    <item android:id="@+id/kuis"
+        android:icon="@drawable/ic_ballot"
+        android:title="Notification" />
+</menu>
