@@ -8,7 +8,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:context="com.prakpapb2.Biografi">
+        tools:context="com.prakpapb2.intro1.Biografi">
 
         <ImageView
             android:id="@+id/back"

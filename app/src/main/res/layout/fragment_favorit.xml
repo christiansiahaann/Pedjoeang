@@ -3,7 +3,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.prakpapb2.Favorit">
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textFavorite"
+        android:text="ini halaman Favorite"
+        android:textSize="30sp"
+        android:textColor="#000"
+        android:gravity="center"
+        android:layout_marginTop="250dp"/>
 
 </RelativeLayout>
