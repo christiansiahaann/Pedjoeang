@@ -18,12 +18,10 @@
         app:menu="@menu/bottom_menu">
 
     </com.google.android.material.bottomnavigation.BottomNavigationView>
-
+    
     <FrameLayout
         android:id="@+id/container_fragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@+id/bottom_navigation_menu"/>
-
-
 </RelativeLayout>

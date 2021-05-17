@@ -7,6 +7,8 @@ import androidx.navigation.ui.AppBarConfiguration;
 
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -41,6 +43,6 @@ public class MainActivity extends AppCompatActivity {
         AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(
                 R.id.navigation_home,R.id.navigation_favorit,R.id.navigation_kuis)
                 .build();
-
+        bottomNavigationView.setSelectedItemId(R.id.menu_home);
     }
 }

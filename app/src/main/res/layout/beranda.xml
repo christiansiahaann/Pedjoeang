@@ -31,13 +31,14 @@
         app:startColor="@color/color4"
         tools:ignore="MissingConstraints" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/back"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_gravity="center"
         android:layout_marginStart="88dp"
         android:layout_marginTop="60dp"
+        android:background="@android:color/transparent"
         android:src="@drawable/ic_baseline_more_vert_24"
         app:layout_constraintBottom_toTopOf="@+id/button1"
         app:layout_constraintEnd_toEndOf="parent"
