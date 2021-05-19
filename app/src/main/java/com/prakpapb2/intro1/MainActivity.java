@@ -5,7 +5,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.ui.AppBarConfiguration;
 
+import android.graphics.Color;
 import android.os.Bundle;
+import android.text.SpannableString;
+import android.text.style.ForegroundColorSpan;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
@@ -14,7 +19,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {
     BottomNavigationView bottomNavigationView;
-    private BottomNavigationView.OnNavigationItemSelectedListener navigation  = new BottomNavigationView.OnNavigationItemSelectedListener() {
+    private BottomNavigationView.OnNavigationItemSelectedListener navigation = new BottomNavigationView.OnNavigationItemSelectedListener() {
         @Override
         public boolean onNavigationItemSelected(MenuItem item) {
             Fragment f = null;
@@ -29,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
                     f = new FragmentKuis();
                     break;
             }
-            getSupportFragmentManager().beginTransaction().replace(R.id.container_fragment,f).commit();
+            getSupportFragmentManager().beginTransaction().replace(R.id.container_fragment, f).commit();
             return true;
         }
     };
@@ -41,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
         bottomNavigationView = findViewById(R.id.bottom_navigation_menu);
         bottomNavigationView.setOnNavigationItemSelectedListener(navigation);
         AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.navigation_home,R.id.navigation_favorit,R.id.navigation_kuis)
+                R.id.navigation_home, R.id.navigation_favorit, R.id.navigation_kuis)
                 .build();
         bottomNavigationView.setSelectedItemId(R.id.menu_home);
     }

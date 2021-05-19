@@ -15,5 +15,5 @@
         android:id="@+id/action_language"
         android:orderInCategory="101"
         android:title="@string/language"
-        />
+        android:background="#F09117" />
 </menu>

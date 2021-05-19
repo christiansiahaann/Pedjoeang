@@ -52,9 +52,9 @@ public class FragmentHome extends Fragment implements androidx.appcompat.widget.
         butt3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                replaceFragment(new FragmentKuis());
-            }
-        });
+                        replaceFragment(new FragmentKuis());
+                    }
+                });
     }
     public  void showPopup(View v) {
         PopupMenu popup = new PopupMenu(getContext(), v);
