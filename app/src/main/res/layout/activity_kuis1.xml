@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color3"
+    tools:context=".Kuis1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="70dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pertanyaan 1"
+            android:textColor="@color/color1"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            app:srcCompat="@drawable/ra_kartini"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="Siapakah tokoh pada foto di atas?"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@android:color/white"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="A.    Lorem ipsum"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textColor="@android:color/black"
+            tools:ignore="MissingConstraints"/>
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@android:color/white"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="B.    Lorem ipsum"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textColor="@android:color/black"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@android:color/white"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="C.    Lorem ipsum"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textColor="@android:color/black"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="D.    Lorem ipsum"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textColor="@android:color/black"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/custom_button2"
+            android:text="Lewati"
+            android:textAllCaps="false"
+            android:textColor="@color/color3"
+            android:textSize="20dp"
+            tools:ignore="MissingConstraints"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
