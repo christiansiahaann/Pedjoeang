@@ -9,6 +9,6 @@ public class Intro2fix extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_intro2fix);
+        setContentView(R.layout.activity_intro2);
     }
 }
