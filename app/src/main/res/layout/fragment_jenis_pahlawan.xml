@@ -1,14 +1,128 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FragmentJenisPahlawan">
+    android:background="@color/color3"
+    tools:context="com.prakpapb2.intro1.Beranda">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <com.veeyaar.supergradienttextview.GradientTextView
+        android:id="@+id/textJenisPahlawan"
+        android:layout_width="185dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="60dp"
+        android:width="161dp"
+        android:height="26dp"
+        android:autoSizeMaxTextSize="22sp"
+        android:fontFamily="@font/poppins"
+        android:text="@string/jenis_pahlawan"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:endColor="@color/color5"
+        app:isVertical="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:startColor="@color/color4"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button_kemerdekaan_nasional"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:width="346dp"
+        android:height="75dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/poppins"
+        android:text="@string/kemerdekaan_nasional"
+        android:textAllCaps="false"
+        android:textColor="#A6000000"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textJenisPahlawan"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button_kebangkitan_nasional"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:width="346dp"
+        android:height="75dp"
+        android:background="@drawable/button"
+        android:text="@string/kebangkitan_nasional"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_kemerdekaan_nasional"
+        tools:ignore="MissingConstraints"
+        android:textAllCaps="false"
+        android:fontFamily="@font/poppins"
+        android:textSize="16sp"
+        android:textColor="#A6000000"/>
+
+    <Button
+        android:id="@+id/button_revolusi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:width="346dp"
+        android:height="75dp"
+        android:background="@drawable/button"
+        android:text="@string/revolusi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_kebangkitan_nasional"
+        tools:ignore="MissingConstraints"
+        android:textAllCaps="false"
+        android:fontFamily="@font/poppins"
+        android:textSize="16sp"
+        android:textColor="#A6000000"/>
+
+    <Button
+        android:id="@+id/emansipasi_wanita"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:width="346dp"
+        android:height="75dp"
+        android:background="@drawable/button"
+        android:text="@string/emansipasi_wanita"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_revolusi"
+        tools:ignore="MissingConstraints"
+        android:textAllCaps="false"
+        android:fontFamily="@font/poppins"
+        android:textSize="16sp"
+        android:textColor="#A6000000"/>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation_menu"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="92dp"
+        android:background="@drawable/custom_button3"
+        app:itemIconTint="@drawable/selector"
+        app:layout_constraintTop_toBottomOf="@+id/emansipasi_wanita"
+        app:menu="@menu/bottom_menu"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp">
 
-</FrameLayout>
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <FrameLayout
+        android:id="@+id/container_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottom_navigation_menu"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

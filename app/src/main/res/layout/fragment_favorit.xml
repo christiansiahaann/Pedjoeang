@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context="com.prakpapb2.intro1.FragmentFavorit">
 
-
     <ImageView
         android:id="@+id/favoritKosong"
         android:layout_width="202dp"

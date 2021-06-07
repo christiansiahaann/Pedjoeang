@@ -52,9 +52,9 @@ public class FragmentHome extends Fragment implements androidx.appcompat.widget.
         butt3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                        replaceFragment(new FragmentKuis());
-                    }
-                });
+                replaceFragment(new FragmentKuis());
+            }
+        });
     }
     public  void showPopup(View v) {
         PopupMenu popup = new PopupMenu(getContext(), v);
@@ -63,25 +63,25 @@ public class FragmentHome extends Fragment implements androidx.appcompat.widget.
         popup.show();
     }
 
-        private void replaceFragment(Fragment newFragment) {
-            FragmentTransaction trasection = getFragmentManager().beginTransaction();
+    private void replaceFragment(Fragment newFragment) {
+        FragmentTransaction trasection = getFragmentManager().beginTransaction();
 
-            if(!newFragment.isAdded()) {
-                try {
-                    //FragmentTransaction trasection =
-                    getFragmentManager().beginTransaction();
-                    trasection.replace(R.id.container_fragment, newFragment);
-                    trasection.addToBackStack(null);
-                    trasection.commit();
-                } catch (Exception e) {
-                    // TODO: handle exception
-                    // AppConstants.printLog(e.getMessage());
-                }
-
-                }else {
-                    trasection.show(newFragment);
-                }
+        if(!newFragment.isAdded()) {
+            try {
+                //FragmentTransaction trasection =
+                getFragmentManager().beginTransaction();
+                trasection.replace(R.id.container_fragment, newFragment);
+                trasection.addToBackStack(null);
+                trasection.commit();
+            } catch (Exception e) {
+                // TODO: handle exception
+                // AppConstants.printLog(e.getMessage());
             }
+
+        }else {
+            trasection.show(newFragment);
+        }
+    }
 
     @Override
     public boolean onMenuItemClick(MenuItem item) {

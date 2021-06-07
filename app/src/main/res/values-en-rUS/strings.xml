@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pedjoeang</string>
+    <string name="beranda">Home</string>
+    <string name="notification">Notification</string>
+    <string name="language">Language</string>
+    <string name="favorit">Favorite</string>
+    <string name="jenis_pahlawan">"Hero Type "</string>
+    <string name="kuis">"Quiz "</string>
+    <string name="kemerdekaan_nasional">National Independence</string>
+    <string name="kebangkitan_nasional">National Awakening</string>
+    <string name="revolusi">Revolution</string>
+    <string name="emansipasi_wanita">Emancipation of Women</string>
+</resources>
