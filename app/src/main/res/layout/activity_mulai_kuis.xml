@@ -1,57 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/color3"
+    android:orientation="vertical"
     tools:context=".MulaiKuis">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="KUIS"
-        android:textColor="@color/color1"
-        android:textSize="25dp"
-        android:textStyle="bold"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="178dp"
-        tools:layout_editor_absoluteY="70dp" />
-
-    <ImageButton
-        android:id="@+id/vector_back"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@android:color/transparent"
-        app:srcCompat="@drawable/ic_back"
-        tools:ignore="MissingConstraints,VectorDrawableCompat"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="80dp" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="260dp"
-        android:layout_height="215dp"
-        app:srcCompat="@drawable/intro3"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="75dp"
-        tools:layout_editor_absoluteY="200dp" />
-
-    <Button
-        android:id="@+id/button"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/vector_back_mulai_kuis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/ic_back"
+            tools:ignore="VectorDrawableCompat" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="118dp"
+            android:text="KUIS"
+            android:textColor="@color/color1"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView_mulai_kuis"
+        android:layout_width="260dp"
+        android:layout_height="215dp"
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/intro3" />
+
+    <Button
+        android:id="@+id/button_mulai_kuis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
         android:layout_marginLeft="35dp"
         android:layout_marginRight="35dp"
         android:background="@drawable/custom_button2"
         android:text="Mulai Kuis"
         android:textAllCaps="false"
-        android:textSize="20dp"
+        android:textSize="25dp"
         android:textStyle="bold"
-        android:textColor="@color/color3"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="458dp" />
+        android:textColor="@color/color3" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

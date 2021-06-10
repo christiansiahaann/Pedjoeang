@@ -58,15 +58,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="100dp"
-            android:background="@drawable/custom_button2"
+            android:background="@drawable/custom_button4"
             android:text="Beranda"
             android:textAllCaps="false"
             android:textColor="@color/color3"
             android:textSize="20dp"
             android:paddingTop="5dp"
             android:paddingBottom="5dp"
-            android:paddingLeft="20dp"
-            android:paddingRight="20dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
             android:textStyle="bold"
             tools:ignore="MissingConstraints"/>
     </LinearLayout>
