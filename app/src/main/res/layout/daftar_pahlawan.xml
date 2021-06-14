@@ -19,7 +19,7 @@
         android:height="26dp"
         android:autoSizeMaxTextSize="22sp"
         android:fontFamily="@font/poppins"
-        android:text="Kemerdekaan Nasional"
+        android:text="Kebangkitan Nasional"
         android:textAllCaps="false"
         android:textSize="22dp"
         android:textStyle="bold"
@@ -33,14 +33,13 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
-        android:id="@+id/gambarpahlawan"
-        android:layout_width="149dp"
-        android:layout_height="146dp"
+        android:id="@+id/gambarpahlawan2"
+        android:layout_width="150dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="28dp"
         android:layout_marginTop="76dp"
-        android:src="@drawable/gambar"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.642"
-        app:layout_constraintStart_toEndOf="@+id/gambarpahlawan2"
+        android:src="@drawable/gambarSoetomo"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textJenisPahlawan"
         tools:ignore="MissingConstraints" />
 
@@ -57,13 +56,14 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
-        android:id="@+id/gambarpahlawan2"
-        android:layout_width="150dp"
-        android:layout_height="145dp"
-        android:layout_marginStart="28dp"
+        android:id="@+id/gambarpahlawan"
+        android:layout_width="149dp"
+        android:layout_height="146dp"
         android:layout_marginTop="76dp"
-        android:src="@drawable/gambar2"
-        app:layout_constraintStart_toStartOf="parent"
+        android:src="@drawable/gambar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.642"
+        app:layout_constraintStart_toEndOf="@+id/gambarpahlawan2"
         app:layout_constraintTop_toBottomOf="@+id/textJenisPahlawan"
         tools:ignore="MissingConstraints" />
 
@@ -71,12 +71,58 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="124dp"
-
         android:layout_marginTop="16dp"
         android:text="Ir.Soekarno"
         android:textColor="#000"
         app:layout_constraintStart_toEndOf="@+id/textView2"
         app:layout_constraintTop_toBottomOf="@+id/gambarpahlawan"
+        tools:ignore="MissingConstraints" />
+
+
+    <ImageView
+        android:id="@+id/gambarpahlawan3"
+        android:layout_width="150dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="76dp"
+        android:src="@drawable/gambarKiHajar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Ki Hajar Dewantara"
+        android:textColor="#000"
+        app:layout_constraintTop_toBottomOf="@+id/gambarpahlawan3"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="44dp" />
+
+    <ImageView
+        android:id="@+id/gambarpahlawan4"
+        android:layout_width="149dp"
+        android:layout_height="146dp"
+        android:layout_marginTop="76dp"
+        android:src="@drawable/gambarCiptoMangunkusumo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.642"
+        app:layout_constraintStart_toEndOf="@+id/gambarpahlawan2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="16dp"
+        android:text="dr. Cipto Mangunkusumo"
+        android:textColor="#000"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/gambarpahlawan4"
         tools:ignore="MissingConstraints" />
 
 
