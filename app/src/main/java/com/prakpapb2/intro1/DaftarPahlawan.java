@@ -15,7 +15,7 @@ public class DaftarPahlawan extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.daftar_pahlawan);
+        setContentView(R.layout.daftar_pahlawan_kebangkitan);
 
         ImageView gambarpahlawan = findViewById(R.id.gambarpahlawan);
         gambarpahlawan.setOnClickListener(new View.OnClickListener() {
