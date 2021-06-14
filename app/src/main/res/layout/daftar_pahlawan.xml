@@ -38,7 +38,7 @@
         android:layout_height="145dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="76dp"
-        android:src="@drawable/gambarSoetomo"
+        android:src="@drawable/gambar_soetomo"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textJenisPahlawan"
         tools:ignore="MissingConstraints" />
@@ -85,7 +85,7 @@
         android:layout_height="145dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="76dp"
-        android:src="@drawable/gambarKiHajar"
+        android:src="@drawable/gambar_ki_hajar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
         tools:ignore="MissingConstraints" />
@@ -106,7 +106,7 @@
         android:layout_width="149dp"
         android:layout_height="146dp"
         android:layout_marginTop="76dp"
-        android:src="@drawable/gambarCiptoMangunkusumo"
+        android:src="@drawable/gambar_cipto_mangunkusumo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.642"
         app:layout_constraintStart_toEndOf="@+id/gambarpahlawan2"
