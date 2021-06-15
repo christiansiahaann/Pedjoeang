@@ -98,14 +98,14 @@ public class FragmentJenisPahlawan extends Fragment {
             }
         });
 
-//        Button buttonEmansipasiWanita = view.findViewById(R.id.button_emansipasi_wanita);
-//        buttonEmansipasiWanita.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(getContext(), DaftarPahlawanEmansipasi.class);
-//                startActivity(intent);
-//            }
-//        });
+        Button buttonEmansipasiWanita = view.findViewById(R.id.button_emansipasi_wanita);
+        buttonEmansipasiWanita.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), DaftarPahlawanEmansipasi.class);
+                startActivity(intent);
+            }
+        });
 
 //        ya Allah masih error yg button emansipasi
 

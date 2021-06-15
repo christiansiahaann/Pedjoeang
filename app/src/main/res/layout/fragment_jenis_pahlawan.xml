@@ -86,7 +86,7 @@
         android:textColor="#A6000000"/>
 
     <Button
-        android:id="@+id/emansipasi_wanita"
+        android:id="@+id/button_emansipasi_wanita"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
@@ -111,7 +111,7 @@
         android:layout_marginTop="92dp"
         android:background="@drawable/custom_button3"
         app:itemIconTint="@drawable/selector"
-        app:layout_constraintTop_toBottomOf="@+id/emansipasi_wanita"
+        app:layout_constraintTop_toBottomOf="@+id/button_emansipasi_wanita"
         app:menu="@menu/bottom_menu"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="0dp">
