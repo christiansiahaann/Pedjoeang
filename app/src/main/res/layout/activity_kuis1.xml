@@ -34,7 +34,7 @@
             android:layout_height="150dp"
             android:layout_gravity="center"
             android:layout_marginBottom="20dp"
-            app:srcCompat="@drawable/ra_kartini"
+            app:srcCompat="@drawable/gambar_ra_kartini"
             tools:ignore="MissingConstraints" />
 
         <TextView

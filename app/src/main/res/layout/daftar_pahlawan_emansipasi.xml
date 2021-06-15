@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/color3"
-    tools:context="com.prakpapb2.intro1.DaftarPahlawanKebangkitan">
+    tools:context="com.prakpapb2.intro1.DaftarPahlawanEmansipasi">
 
     <ImageButton
         android:id="@+id/ib_back"
@@ -23,16 +23,16 @@
 
     <com.veeyaar.supergradienttextview.GradientTextView
         android:id="@+id/textJenisPahlawan"
-        android:layout_width="260dp"
+        android:layout_width="235dp"
         android:layout_height="31dp"
-        android:layout_marginStart="55dp"
+        android:layout_marginStart="50dp"
         android:layout_marginTop="60dp"
         android:layout_marginEnd="30dp"
         android:width="16dp"
         android:height="26dp"
         android:autoSizeMaxTextSize="22sp"
         android:fontFamily="@font/poppins"
-        android:text="Kebangkitan Nasional"
+        android:text="Emansipasi Wanita"
         android:textAllCaps="false"
         android:textSize="22dp"
         android:textStyle="bold"
@@ -46,13 +46,37 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
-        android:id="@+id/gambarpahlawan2"
+        android:id="@+id/gambarpahlawan1"
         android:layout_width="150dp"
         android:layout_height="145dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="76dp"
-        android:src="@drawable/gambar_soetomo"
+        android:src="@drawable/gambar_ra_kartini"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textJenisPahlawan"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="9dp"
+        android:text="R.A. Kartini"
+        android:textColor="#000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gambarpahlawan1"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/gambarpahlawan2"
+        android:layout_width="149dp"
+        android:layout_height="146dp"
+        android:layout_marginTop="76dp"
+        android:src="@drawable/gambar_cut_nyak_dhien"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.642"
+        app:layout_constraintStart_toEndOf="@+id/gambarpahlawan1"
         app:layout_constraintTop_toBottomOf="@+id/textJenisPahlawan"
         tools:ignore="MissingConstraints" />
 
@@ -60,36 +84,12 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="68dp"
+        android:layout_marginStart="120dp"
         android:layout_marginTop="9dp"
-        android:text="dr.Soetomo"
+        android:text="Cut Nyak Dhien"
         android:textColor="#000"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView1"
         app:layout_constraintTop_toBottomOf="@+id/gambarpahlawan2"
-        tools:ignore="MissingConstraints" />
-
-    <ImageView
-        android:id="@+id/gambarpahlawan"
-        android:layout_width="149dp"
-        android:layout_height="146dp"
-        android:layout_marginTop="76dp"
-        android:src="@drawable/gambar"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.642"
-        app:layout_constraintStart_toEndOf="@+id/gambarpahlawan2"
-        app:layout_constraintTop_toBottomOf="@+id/textJenisPahlawan"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="124dp"
-        android:layout_marginTop="9dp"
-        android:text="Ir.Soekarno"
-        android:textColor="#000"
-        app:layout_constraintStart_toEndOf="@+id/textView2"
-        app:layout_constraintTop_toBottomOf="@+id/gambarpahlawan"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -98,18 +98,18 @@
         android:layout_height="145dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="50dp"
-        android:src="@drawable/gambar_ki_hajar"
+        android:src="@drawable/gambar_fatmawati"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView1"
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
+        android:layout_marginStart="65dp"
         android:layout_marginTop="9dp"
-        android:text="Ki Hajar Dewantara"
+        android:text="Fatmawati"
         android:textColor="#000"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/gambarpahlawan3"
@@ -121,22 +121,22 @@
         android:layout_width="149dp"
         android:layout_height="146dp"
         android:layout_marginTop="50dp"
-        android:src="@drawable/gambar_cipto_mangunkusumo"
+        android:src="@drawable/gambar_dewi_sartika"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.642"
-        app:layout_constraintStart_toEndOf="@+id/gambarpahlawan2"
+        app:layout_constraintStart_toEndOf="@+id/gambarpahlawan3"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@id/textView5"
+        android:id="@id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="85dp"
+        android:layout_marginStart="110dp"
         android:layout_marginTop="9dp"
-        android:text="dr. Cipto Mangunkusumo"
+        android:text="Raden Dewi Sartika"
         android:textColor="#000"
-        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintStart_toEndOf="@+id/textView3"
         app:layout_constraintTop_toBottomOf="@+id/gambarpahlawan4"
         tools:ignore="MissingConstraints" />
 

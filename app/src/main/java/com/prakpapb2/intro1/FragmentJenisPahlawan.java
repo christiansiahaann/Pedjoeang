@@ -12,8 +12,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-import static com.prakpapb2.intro1.Biografi.EXTRA_PAHLAWAN;
-
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link FragmentJenisPahlawan#newInstance} factory method to
@@ -76,9 +74,41 @@ public class FragmentJenisPahlawan extends Fragment {
         buttonKemerdekaanNasional.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getContext(), DaftarPahlawan.class);
+                Intent intent = new Intent(getContext(), DaftarPahlawanKemerdekaan.class);
                 startActivity(intent);
             }
         });
+
+        Button buttonKebangkitanNasional = view.findViewById(R.id.button_kebangkitan_nasional);
+        buttonKebangkitanNasional.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), DaftarPahlawanKebangkitan.class);
+                startActivity(intent);
+            }
+        });
+
+
+        Button buttonRevolusi = view.findViewById(R.id.button_revolusi);
+        buttonRevolusi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), DaftarPahlawanRevolusi.class);
+                startActivity(intent);
+            }
+        });
+
+//        Button buttonEmansipasiWanita = view.findViewById(R.id.button_emansipasi_wanita);
+//        buttonEmansipasiWanita.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(getContext(), DaftarPahlawanEmansipasi.class);
+//                startActivity(intent);
+//            }
+//        });
+
+//        ya Allah masih error yg button emansipasi
+
+
     }
 }

@@ -74,7 +74,7 @@
                 android:id="@+id/imageView7"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                app:srcCompat="@drawable/ir_soekarno" />
+                app:srcCompat="@drawable/gambar" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -99,7 +99,7 @@
                 android:id="@+id/imageView8"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                app:srcCompat="@drawable/ra_kartini" />
+                app:srcCompat="@drawable/gambar_ra_kartini" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -124,7 +124,7 @@
                 android:id="@+id/imageView9"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                app:srcCompat="@drawable/dr_sutomo" />
+                app:srcCompat="@drawable/gambar_soetomo" />
 
             <TextView
                 android:layout_width="match_parent"
