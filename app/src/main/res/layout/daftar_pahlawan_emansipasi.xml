@@ -32,7 +32,7 @@
         android:height="26dp"
         android:autoSizeMaxTextSize="22sp"
         android:fontFamily="@font/poppins"
-        android:text="Emansipasi Wanita"
+        android:text="@string/emansipasi_wanita"
         android:textAllCaps="false"
         android:textSize="22dp"
         android:textStyle="bold"
