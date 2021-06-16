@@ -7,7 +7,23 @@ public class DataPahlawanId {
             2,
             3,
             4,
-            5
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
     };
 
     static final String[] photoPahlawan = {
@@ -32,26 +48,24 @@ public class DataPahlawanId {
             "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Panjaitan.jpg/330px-Panjaitan.jpg",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Sutoyo.jpg/330px-Sutoyo.jpg",
             "https://upload.wikimedia.org/wikipedia/commons/e/ec/Tendean.jpg",
-            ""
 
     };
 
     static final String[] namaPahlawan = {
             "dr.Soetomo",
-            "Ir.Soekarno (ID)",
+            "Ir.Soekarno",
             "Ki Hajar Dewantara",
             "dr.Cipto Mangunkusumo",
             "Douwes Dekker",
             "Cut Nyak Dhien",
             "Cut Meutia",
             "Sisingamangaraja XII",
-            "Pakubowono",
+            "Pakubowono VI",
             "Jenderal Soedirman",
             "Sutan Sjahrir",
             "R.A. Kartini",
             "Fatmawati",
             "Raden Dewi Sartika",
-            "Cut Meutia",
             "Mayjen MT Haryono",
             "Jenderal Ahmad Yani",
             "Mayjen S.Parman",
@@ -178,13 +192,6 @@ public class DataPahlawanId {
                     "Kemudian pada 1913, berdiri pula organisasi kautamaan istri di tasikmalaya. Organisasi ini menaungi sekolah-sekolah yang didirikan oleh dewi sartika. Pada tahun 1929, sakola kautamaan istri diubah namanya menjadi Sakolah Raden Dewi dan oleh pemerintah Hindia Belanda dibangunkan sebuah gedung baru yang besar dan lengkap.Dia berusaha keras mendidik anak-anak gadis agar kelak bisa menjadi ibu rumah tangga yang baik, bisa berdiri sendiri, luwes, dan terampil. Maka untuk itu, pelajaran yang berhubungan dengan pembinaan rumah tangga banyak diberikannya. Untuk menutupi biaya operasional sekolah, ia membanting tulang mencari dana. Semua jerih payahnya itu tidak dirasakannya jadi beban, tapi berganti menjadi kepuasan batin karena telah berhasil mendidik kaumnya. Salah satu yang menambah semangatnya adalah dorongan dari berbagai pihak terutama dari Raden Kanduruan Agah Suriawinata, suaminya, yang telah banyak membantunya mewujudkan perjuangannya, baik tenaga maupun pemikiran.\n" +
                     "\n" +
                     "Pada tahun 1947, akibat agresi militer Belanda, Dewi Sartika ikut mengungsi bersama-sama para pejuang yang terus malakukan perlawanan terhadap Belanda untuk mempertahankan kemerdekaan. Saat mengungsi inilah, tepatnya tanggal 11 september 1947, Dewi sartika yang sudah lanjut usia wafat di Cinean, Jawa Barat. Setelah keadaan aman, makamnya dipindahkan ke Bandung.",
-            "Cut Meutia merupakan salah satu pejuang wanita dari Aceh yang telah diakui sebagai pahlawan nasional Indonesia. Sama halnya dengan para pejuang dari Tanah Rencong lainnya seperti Cut Nyak Dhien, Teuku Umar, Teuku Cik Di Tiro, dan tokoh pejuang Aceh lainnya, Cut Meutia dikenal sebagai sosok pemberani dan memiliki semangat juang yang tinggi serta tekad kuat untuk mengenyahkan para penjajah.\n" +
-                    "\n" +
-                    "Cut Meutia bertempur melawan Belanda bersama suaminya Teuku Muhammad atau lebih dikenal sebagai Teuku Tjik Tunong. Mereka bersama-sama melalui perjuangan yang panjang, namun pada akhirnya Teuku Tjik Tunong ditangkap oleh pihak Belanda pada bulan Maret tahun 1905. Teuku Tjik Tunong kemudian dijatuhi hukuman mati oleh Belanda di tepi pantai Lhokseumawe. Sebelum meninggal, ia berpesan pada sahabatnya Pang Nagroe agar mau menikahi istrinya dan merawat anaknya sepeninggal dirinya kelak.\n" +
-                    "\n" +
-                    "Sesuai pesan mendiang suaminya, Cut Meutia pun menikah dengan Pang Nagroe lalu bergabung bersama pasukan pimpinan Teuku Muda Gantoe. Dalam suatu pertempuran melawan Korps Marechausée di Paya Cicem, Pang Nagroe tewas dalam peperangan pada tanggal 26 September 1910 sedangkan Cut Meutia berhasil selamat. Ia bersama para wanita lainnya yang masih selamat kemudian melarikan diri ke dalam hutan.\n" +
-                    "\n" +
-                    "Setelah kematian Pang Nagroe, Cut Meutia masih terus melakukan perlawanan terhadap Belanda bersama sepasukan kecil pengikutnya. Mereka berusaha menyerang dan merampas pos-pos kolonial sepanjang perjalanan mereka ke Gayo melewati hutan belantara. Namun, pada pertempuran di Alue Kurieng tanggal 24 Oktober 1910 Cut Meutia akhirnya gugur akibat tembakan peluru tentara Belanda. Atas jasa-jasanya, pemerintah menganugerahi gelar Pahlawan Nasional pada Cut Meutia di tahun 1964.",
             "Letnan Jenderal TNI Anumerta Mas Tirtodarmo Haryono atau biasa dikenal sebagai MT Haryono adalah salah satu dari tujuh pahlawan revolusi Indonesia yang meninggal pada tragedi lubang buaya. Pada masa pendudukan Belanda di Indonesia, MT Haryono sempat memperoleh pendidikan di berbagai tempat.Yang pertama adalah di ELS, pendidikan setingkat sekolah dasar bentukan Belanda. MT Haryono juga sempat melanjutkan sekolah di HBS, pendidikan setingkat sekolah umum. Kemudian beralih ke masa pendudukan Jepang, MT Haryono sempat disekolahkan ke Ika Dai Gakko, sebuah sekolah kedokteran pada masa pendudukan Jepang, tetapi tidak sampai selesai.\n" +
                     "\n" +
                     "Ketika kemerdekaan RI dikumandangkan, MT Haryono sedang berada di Jakarta dan segera bergabung dengan para pemuda lain untuk mempertahankan Indonesia. Semangat perjuangan tersebut juga dilanjutkan dengan masuknya MT Haryono ke TKR (Tentara Keamanan Rakyat). Pada masa awal pengangkatannya, MT Haryono mendapat jabatan sebagai Mayor. Dengan prestasinya, MT Haryono pun akhirnya berkali-kali naik pangkat hingga mendapat jabatan Letnan Jenderal.\n" +

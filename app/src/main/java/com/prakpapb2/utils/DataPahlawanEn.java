@@ -7,7 +7,23 @@ public class DataPahlawanEn {
             2,
             3,
             4,
-            5
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
     };
 
     static final String[] photoPahlawan = {
@@ -32,26 +48,23 @@ public class DataPahlawanEn {
             "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Panjaitan.jpg/330px-Panjaitan.jpg",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Sutoyo.jpg/330px-Sutoyo.jpg",
             "https://upload.wikimedia.org/wikipedia/commons/e/ec/Tendean.jpg",
-            ""
-
     };
 
     static final String[] namaPahlawan = {
             "dr.Soetomo",
-            "Ir.Soekarno (EN)",
+            "Ir.Soekarno",
             "Ki Hajar Dewantara",
             "dr.Cipto Mangunkusumo",
             "Douwes Dekker",
             "Cut Nyak Dhien",
             "Cut Meutia",
             "Sisingamangaraja XII",
-            "Pakubowono",
+            "Pakubowono VI",
             "Jenderal Soedirman",
             "Sutan Sjahrir",
             "R.A. Kartini",
             "Fatmawati",
             "Raden Dewi Sartika",
-            "Cut Meutia",
             "Mayjen MT Haryono",
             "Jenderal Ahmad Yani",
             "Mayjen S.Parman",
@@ -177,13 +190,6 @@ public class DataPahlawanEn {
                     "Then in 1913, the Kautamaan wife organization was also established in Tasikmalaya. This organization houses the schools founded by Dewi Sartika. In 1929, Sakola Kautamaan Wife changed its name to Sakola Raden Dewi and by the Dutch East Indies government a new building was built which was large and complete. , and skilled. So for that, many lessons related to household development are given. To cover the school's operational costs, he worked hard to find funds. He did not feel all his hard work as a burden, but turned into inner satisfaction because he had succeeded in educating his people. One of the things that added to her enthusiasm was the encouragement from various parties, especially from Raden Kanduruan Agah Suriawinata, her husband, who had helped her a lot in realizing her struggle, both energy and thought.\n" +
                     "\n" +
                     "In 1947, due to the Dutch military aggression, Dewi Sartika took refuge along with the fighters who continued to fight against the Dutch to maintain independence. It was during this evacuation, on September 11, 1947, that the elderly Dewi Sartika died in Cinean, West Java. After the situation was safe, his grave was moved to Bandung.",
-            "Cut Meutia is one of the female fighters from Aceh who has been recognized as an Indonesian national hero. Similar to other fighters from Tanah Rencong such as Tjoet Njak Dhien, Teuku Umar, Teuku Cik Di Tiro, and other Acehnese warrior figures, Cut Meutia is known as a brave figure and has a high fighting spirit and strong determination to get rid of the invaders.\n" +
-                    "\n" +
-                    "Cut Meutia fought against the Dutch with her husband Teuku Muhammad or better known as Teuku Tjik Tunong. Together they went through a long struggle, but in the end Teuku Tjik Tunong was arrested by the Dutch in March 1905. Teuku Tjik Tunong was then sentenced to death by the Dutch on the shores of Lhokseumawe. Before he died, he advised his friend Pang Nagroe to marry his wife and take care of his child after he died.\n" +
-                    "\n" +
-                    "According to the message of her late husband, Cut Meutia married Pang Nagroe and then joined the troops led by Teuku Muda Gantoe. In a battle against the Marechausée Corps at Paya Cicem, Pang Nagroe died in battle on 26 September 1910 while Cut Meutia survived. He and the other women who survived then fled into the forest.\n" +
-                    "\n" +
-                    "After the death of Pang Nagroe, Cut Meutia still continued to fight against the Dutch with a small army of his followers. They tried to attack and seize colonial outposts along their way to Gayo through the jungle. However, in the battle in Alue Kurieng on October 24, 1910, Cut Meutia was finally killed by the Dutch army's bullets. For his services, the government awarded the title of National Hero to Cut Meutia in 1964.",
             "Posthumous Lieutenant General TNI Mas Tirtodarmo Haryono or commonly known as MT Haryono is one of the seven heroes of the Indonesian revolution who died in the crocodile pit tragedy. During the Dutch occupation of Indonesia, MT Haryono had received education in various places. The first was at ELS, an elementary school-level education formed by the Dutch. MT Haryono also had time to continue his education at HBS, education at the level of public schools. Then turning to the Japanese occupation period, MT Haryono was sent to Ika Dai Gakko, a medical school during the Japanese occupation, but did not finish.\n" +
                     "\n" +
                     "When the independence of the Republic of Indonesia was declared, MT Haryono was in Jakarta and immediately joined other youths to defend Indonesia. This spirit of struggle was also continued with the entry of MT Haryono into the TKR (People's Security Army). In the early days of his appointment, MT Haryono got the position of Major. With his achievements, MT Haryono was finally promoted many times to get the position of Lieutenant General.\n" +

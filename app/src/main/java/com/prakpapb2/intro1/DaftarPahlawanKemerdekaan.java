@@ -31,7 +31,7 @@ public class DaftarPahlawanKemerdekaan extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(DaftarPahlawanKemerdekaan.this, Biografi.class);
-                intent.putExtra(EXTRA_PAHLAWAN, getListDataPahlawan().get(1));
+                intent.putExtra(EXTRA_PAHLAWAN, getListDataPahlawan().get(7));
                 startActivity(intent);
             }
         });
@@ -41,7 +41,7 @@ public class DaftarPahlawanKemerdekaan extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(DaftarPahlawanKemerdekaan.this, Biografi.class);
-                intent.putExtra(EXTRA_PAHLAWAN, getListDataPahlawan().get(1));
+                intent.putExtra(EXTRA_PAHLAWAN, getListDataPahlawan().get(8));
                 startActivity(intent);
             }
         });
@@ -51,7 +51,7 @@ public class DaftarPahlawanKemerdekaan extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(DaftarPahlawanKemerdekaan.this, Biografi.class);
-                intent.putExtra(EXTRA_PAHLAWAN, getListDataPahlawan().get(1));
+                intent.putExtra(EXTRA_PAHLAWAN, getListDataPahlawan().get(9));
                 startActivity(intent);
             }
         });
@@ -61,7 +61,7 @@ public class DaftarPahlawanKemerdekaan extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(DaftarPahlawanKemerdekaan.this, Biografi.class);
-                intent.putExtra(EXTRA_PAHLAWAN, getListDataPahlawan().get(1));
+                intent.putExtra(EXTRA_PAHLAWAN, getListDataPahlawan().get(10));
                 startActivity(intent);
             }
         });

@@ -19,9 +19,7 @@ import com.squareup.picasso.Picasso;
 import java.util.ArrayList;
 
 public class Biografi extends AppCompatActivity {
-
     private boolean isFavorite = false;
-
     static String ID = "id";
     static String NAME = "title";
     static String DESCRIPTION = "description";

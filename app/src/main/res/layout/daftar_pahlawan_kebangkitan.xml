@@ -46,11 +46,11 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
-        android:id="@+id/gambarpahlawan2"
+        android:id="@+id/gambarpahlawan1"
         android:layout_width="150dp"
         android:layout_height="145dp"
         android:layout_marginStart="28dp"
-        android:layout_marginTop="76dp"
+        android:layout_marginTop="72dp"
         android:src="@drawable/gambar_soetomo"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textJenisPahlawan"
@@ -60,23 +60,25 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="68dp"
-        android:layout_marginTop="9dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/roboto"
         android:text="dr.Soetomo"
         android:textColor="#000"
+        android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/gambarpahlawan2"
+        app:layout_constraintTop_toBottomOf="@+id/gambarpahlawan1"
         tools:ignore="MissingConstraints" />
 
     <ImageView
-        android:id="@+id/gambarpahlawan"
+        android:id="@+id/gambarpahlawan2"
         android:layout_width="149dp"
         android:layout_height="146dp"
-        android:layout_marginTop="76dp"
+        android:layout_marginTop="72dp"
         android:src="@drawable/gambar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.642"
-        app:layout_constraintStart_toEndOf="@+id/gambarpahlawan2"
+        app:layout_constraintStart_toEndOf="@+id/gambarpahlawan1"
         app:layout_constraintTop_toBottomOf="@+id/textJenisPahlawan"
         tools:ignore="MissingConstraints" />
 
@@ -84,12 +86,14 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="124dp"
-        android:layout_marginTop="9dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/roboto"
         android:text="Ir.Soekarno"
         android:textColor="#000"
+        android:textSize="18sp"
         app:layout_constraintStart_toEndOf="@+id/textView2"
-        app:layout_constraintTop_toBottomOf="@+id/gambarpahlawan"
+        app:layout_constraintTop_toBottomOf="@+id/gambarpahlawan2"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -103,18 +107,20 @@
         app:layout_constraintTop_toBottomOf="@+id/textView2"
         tools:ignore="MissingConstraints" />
 
+
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="9dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/roboto"
         android:text="Ki Hajar Dewantara"
         android:textColor="#000"
+        android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/gambarpahlawan3"
         tools:ignore="MissingConstraints" />
-
 
     <ImageView
         android:id="@+id/gambarpahlawan4"
@@ -124,7 +130,7 @@
         android:src="@drawable/gambar_cipto_mangunkusumo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.642"
-        app:layout_constraintStart_toEndOf="@+id/gambarpahlawan2"
+        app:layout_constraintStart_toEndOf="@+id/gambarpahlawan1"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
         tools:ignore="MissingConstraints" />
 
@@ -132,10 +138,12 @@
         android:id="@id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="85dp"
-        android:layout_marginTop="9dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/roboto"
         android:text="dr. Cipto Mangunkusumo"
         android:textColor="#000"
+        android:textSize="18sp"
         app:layout_constraintStart_toEndOf="@+id/textView2"
         app:layout_constraintTop_toBottomOf="@+id/gambarpahlawan4"
         tools:ignore="MissingConstraints" />

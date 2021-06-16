@@ -32,7 +32,7 @@ public class DaftarPahlawanRevolusi extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(DaftarPahlawanRevolusi.this, Biografi.class);
-                intent.putExtra(EXTRA_PAHLAWAN, getListDataPahlawan().get(1));
+                intent.putExtra(EXTRA_PAHLAWAN, getListDataPahlawan().get(14));
                 startActivity(intent);
             }
         });
@@ -42,7 +42,7 @@ public class DaftarPahlawanRevolusi extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(DaftarPahlawanRevolusi.this, Biografi.class);
-                intent.putExtra(EXTRA_PAHLAWAN, getListDataPahlawan().get(1));
+                intent.putExtra(EXTRA_PAHLAWAN, getListDataPahlawan().get(15));
                 startActivity(intent);
             }
         });
@@ -52,7 +52,7 @@ public class DaftarPahlawanRevolusi extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(DaftarPahlawanRevolusi.this, Biografi.class);
-                intent.putExtra(EXTRA_PAHLAWAN, getListDataPahlawan().get(1));
+                intent.putExtra(EXTRA_PAHLAWAN, getListDataPahlawan().get(16));
                 startActivity(intent);
             }
         });
@@ -62,7 +62,7 @@ public class DaftarPahlawanRevolusi extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(DaftarPahlawanRevolusi.this, Biografi.class);
-                intent.putExtra(EXTRA_PAHLAWAN, getListDataPahlawan().get(1));
+                intent.putExtra(EXTRA_PAHLAWAN, getListDataPahlawan().get(17));
                 startActivity(intent);
             }
         });

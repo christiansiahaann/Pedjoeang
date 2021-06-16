@@ -50,7 +50,7 @@
         android:layout_width="150dp"
         android:layout_height="145dp"
         android:layout_marginStart="28dp"
-        android:layout_marginTop="76dp"
+        android:layout_marginTop="72dp"
         android:src="@drawable/gambar_sisingamangaraja_xii"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textJenisPahlawan"
@@ -60,10 +60,12 @@
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="35dp"
-        android:layout_marginTop="9dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/roboto"
         android:text="Sisingamangaraja XII"
         android:textColor="#000"
+        android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/gambarpahlawan1"
         tools:ignore="MissingConstraints" />
@@ -72,7 +74,7 @@
         android:id="@+id/gambarpahlawan2"
         android:layout_width="149dp"
         android:layout_height="146dp"
-        android:layout_marginTop="76dp"
+        android:layout_marginTop="72dp"
         android:src="@drawable/gambar_pakubuwono_vi"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.642"
@@ -84,10 +86,12 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="90dp"
-        android:layout_marginTop="9dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/roboto"
         android:text="Pakubuwono VI"
         android:textColor="#000"
+        android:textSize="18sp"
         app:layout_constraintStart_toEndOf="@+id/textView1"
         app:layout_constraintTop_toBottomOf="@+id/gambarpahlawan2"
         tools:ignore="MissingConstraints" />
@@ -103,18 +107,20 @@
         app:layout_constraintTop_toBottomOf="@+id/textView1"
         tools:ignore="MissingConstraints" />
 
+
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="35dp"
-        android:layout_marginTop="9dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/roboto"
         android:text="Jenderal Soedirman"
         android:textColor="#000"
+        android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/gambarpahlawan3"
         tools:ignore="MissingConstraints" />
-
 
     <ImageView
         android:id="@+id/gambarpahlawan4"
@@ -132,10 +138,12 @@
         android:id="@id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="9dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/roboto"
         android:text="Sutan Sjahrir"
         android:textColor="#000"
+        android:textSize="18sp"
         app:layout_constraintStart_toEndOf="@+id/textView3"
         app:layout_constraintTop_toBottomOf="@+id/gambarpahlawan4"
         tools:ignore="MissingConstraints" />
