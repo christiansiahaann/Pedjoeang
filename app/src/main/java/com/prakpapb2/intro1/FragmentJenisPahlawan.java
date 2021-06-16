@@ -107,7 +107,7 @@ public class FragmentJenisPahlawan extends Fragment {
             }
         });
 
-//        ya Allah masih error yg button emansipasi
+//        ya Allah mau liburan
 
 
     }

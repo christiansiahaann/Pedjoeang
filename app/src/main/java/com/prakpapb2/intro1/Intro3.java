@@ -22,7 +22,7 @@ public class Intro3 extends AppCompatActivity implements View.OnClickListener {
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.button_intro3:
-                Intent moveIntent = new Intent(Intro3.this, Beranda.class);
+                Intent moveIntent = new Intent(Intro3.this, MainActivity.class);
                 startActivity(moveIntent);
                 break;
         }
