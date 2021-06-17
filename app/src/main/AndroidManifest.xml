@@ -11,6 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".FavoriteActivity"></activity>
         <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,7 +24,7 @@
         <activity android:name=".Intro2" />
         <activity android:name=".Intro3" />
         <activity android:name=".DaftarPahlawanKebangkitan" />
-        <activity android:name=".DaftarPahlawanEmansipasi"/>
+        <activity android:name=".DaftarPahlawanEmansipasi" />
         <activity android:name=".DaftarPahlawanKemerdekaan" />
         <activity android:name=".DaftarPahlawanRevolusi" />
         <activity android:name=".Biografi" />

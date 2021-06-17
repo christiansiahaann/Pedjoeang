@@ -13,6 +13,9 @@
     <color name="chiffon">#F8F3E6</color>
     <color name="buttercup">#EFAA52</color>
     <color name="rust">#AB3E16</color>
+    <color name="black">#000000</color>
+    <color name="brown">#F09117</color>
+    <color name="white">#FFFFFF</color>
 
 </resources>
 

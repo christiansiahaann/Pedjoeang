@@ -26,42 +26,12 @@ public class DaftarPahlawanEmansipasi extends AppCompatActivity {
             }
         });
 
-        ImageView gambarpahlawan1 = findViewById(R.id.gambarpahlawan1);
-        gambarpahlawan1.setOnClickListener(new View.OnClickListener() {
+        ImageView gambarpahlawan = findViewById(R.id.gambarpahlawan);
+        gambarpahlawan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(DaftarPahlawanEmansipasi.this, Biografi.class);
-                intent.putExtra(EXTRA_PAHLAWAN, getListDataPahlawan().get(11));
-                startActivity(intent);
-            }
-        });
-
-        ImageView gambarpahlawan2 = findViewById(R.id.gambarpahlawan2);
-        gambarpahlawan2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(DaftarPahlawanEmansipasi.this, Biografi.class);
-                intent.putExtra(EXTRA_PAHLAWAN, getListDataPahlawan().get(5));
-                startActivity(intent);
-            }
-        });
-
-        ImageView gambarpahlawan3 = findViewById(R.id.gambarpahlawan3);
-        gambarpahlawan3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(DaftarPahlawanEmansipasi.this, Biografi.class);
-                intent.putExtra(EXTRA_PAHLAWAN, getListDataPahlawan().get(12));
-                startActivity(intent);
-            }
-        });
-
-        ImageView gambarpahlawan4 = findViewById(R.id.gambarpahlawan4);
-        gambarpahlawan4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(DaftarPahlawanEmansipasi.this, Biografi.class);
-                intent.putExtra(EXTRA_PAHLAWAN, getListDataPahlawan().get(13));
+                intent.putExtra(EXTRA_PAHLAWAN, getListDataPahlawan().get(1));
                 startActivity(intent);
             }
         });

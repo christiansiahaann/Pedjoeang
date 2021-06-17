@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.prakpapb2.intro1.FavoriteActivity">
+
+    <ImageView
+        android:id="@+id/favoritKosong"
+        android:layout_width="202dp"
+        android:layout_height="232dp"
+        android:layout_marginTop="188dp"
+        android:src="@drawable/ilustrasi_favorit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/rvfavorite" />
+
+    <TextView
+        android:id="@+id/textViewFavoritKosong"
+        android:layout_width="254dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="66dp"
+        android:text="Belum Ada yang Ditambahkan ke Favorit"
+        android:textAlignment="center"
+        android:textColor="#545454"
+        android:textSize="18sp"
+        android:gravity="center_horizontal|top"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/favoritKosong" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvfavorite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/custom_button3"
+        app:itemIconTint="@drawable/selector"
+        app:layout_constraintTop_toBottomOf="@+id/textViewFavoritKosong"
+        app:menu="@menu/bottom_menu"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -16,6 +16,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.prakpapb2.kuis.FragmentKuisKotlin;
 
 public class MainActivity extends AppCompatActivity {
     BottomNavigationView bottomNavigationView;
@@ -31,7 +32,8 @@ public class MainActivity extends AppCompatActivity {
                     f = new FragmentFavorit();
                     break;
                 case R.id.menu_kuis:
-                    f = new FragmentKuis();
+//                    f = new FragmentKuis();
+                    f = new FragmentKuisKotlin();
                     break;
             }
             getSupportFragmentManager().beginTransaction().replace(R.id.container_fragment, f).commit();
