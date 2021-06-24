@@ -7,7 +7,7 @@ import android.widget.ImageView;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-//import com.example.stroll.R;
+import com.prakpapb2.intro1.R
 import com.prakpapb2.database.PahlawanHelper;
 import com.prakpapb2.helper.MappingHelper;
 import com.prakpapb2.utils.Pahlawan;
