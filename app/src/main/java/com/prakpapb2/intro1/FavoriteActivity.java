@@ -7,7 +7,6 @@ import android.widget.ImageView;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-import com.prakpapb2.intro1.R
 import com.prakpapb2.database.PahlawanHelper;
 import com.prakpapb2.helper.MappingHelper;
 import com.prakpapb2.utils.Pahlawan;
@@ -29,7 +28,7 @@ public class FavoriteActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_favorite);
+        setContentView(R.layout.fragment_favorit);
 
         rvFavorite = findViewById(R.id.rvfavorite);
         favoritKosong = findViewById(R.id.favoritKosong);

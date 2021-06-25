@@ -8,7 +8,7 @@ class Datasource {
         return arrayListOf<HariBesar>(
             //ubah data hari besar disini
             HariBesar(14,2,"Februari", "Hari Peringatan Pembela Tanah Air (PETA)", R.drawable.hari_kartini),
-            HariBesar(16,6,"Februari", "Hari Peringatan Pembela Tanah Air (PETA)", R.drawable.hari_kartini),
+            HariBesar(16,2,"Februari", "Hari Peringatan Pembela Tanah Air (PETA)", R.drawable.hari_kartini),
             HariBesar(11,3,"Maret", "Hari Surat Perintah 11 Maret", R.drawable.hari_kartini),
             HariBesar(21 ,4,"April", "Hari Kartini", R.drawable.hari_kartini),
             HariBesar(2,5,"Mei", "Hari Pendidikan Nasional", R.drawable.hari_kartini),

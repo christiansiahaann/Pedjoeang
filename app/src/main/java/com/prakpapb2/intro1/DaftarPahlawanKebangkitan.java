@@ -65,5 +65,15 @@ public class DaftarPahlawanKebangkitan extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        ImageView gambarpahlawan5 = findViewById(R.id.gambarpahlawan5);
+        gambarpahlawan4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(DaftarPahlawanKebangkitan.this, Biografi.class);
+                intent.putExtra(EXTRA_PAHLAWAN, getListDataPahlawan().get(4));
+                startActivity(intent);
+            }
+        });
     }
 }

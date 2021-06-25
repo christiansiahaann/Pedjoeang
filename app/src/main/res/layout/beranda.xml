@@ -103,21 +103,6 @@
         android:textSize="16sp"
         android:textColor="#A6000000"/>
 
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/bottom_navigation_menu"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginTop="204dp"
-        android:background="@drawable/custom_button3"
-        app:itemIconTint="@drawable/selector"
-        app:layout_constraintTop_toBottomOf="@+id/button3"
-        app:menu="@menu/bottom_menu"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="32dp">
-
-    </com.google.android.material.bottomnavigation.BottomNavigationView>
-
     <FrameLayout
         android:id="@+id/container_fragment"
         android:layout_width="match_parent"

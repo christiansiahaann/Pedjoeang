@@ -37,7 +37,7 @@ public class DataPahlawanId {
             "https://www.inhilklik.com/assets/berita/original/83162943273-63828780781-20200218_153258.jpg",
             "https://upload.wikimedia.org/wikipedia/commons/5/53/Sri_Susuhunan_Pakubuwono_VI.jpg",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Sudirman.jpg/729px-Sudirman.jpg",
-            "https://files.kajanglako.com/images/uploads/kj-gambar-20200411_o701VS.jpg",
+            "https://assets.kompasiana.com/statics/crawl/555ee7d30423bd190b8b4567.jpeg?t=o&v=740&x=416",
             "https://upload.wikimedia.org/wikipedia/commons/2/23/COLLECTIE_TROPENMUSEUM_Portret_van_Raden_Ajeng_Kartini_TMnr_10018776.jpg",
             "https://kebudayaan.kemdikbud.go.id/muspres/wp-content/uploads/sites/38/2020/02/images.jpg",
             "https://cdn.idntimes.com/content-images/community/2020/05/dewi-sartika-92820ae8f02b5cfd1ff77967b3f9e760.jpg",
