@@ -144,7 +144,7 @@ public class FragmentHome extends Fragment implements androidx.appcompat.widget.
 
         //Calendar untuk menentukan waktu kapan notifikasi muncul
         Calendar calendar = Calendar.getInstance();
-        calendar.set(2021, hariBesar.getMonth()-1, hariBesar.getDate(), 19, 41);//hourofday dan minute untuk menentukan pada jam berapa notifikasi muncul
+        calendar.set(2021, hariBesar.getMonth()-1, hariBesar.getDate(), 07, 01);//hourofday dan minute untuk menentukan pada jam berapa notifikasi muncul
 
         //conditional ketika tanggal hari besar belum lewat, maka baru set notif nya
         if (calendar.getTimeInMillis() >= System.currentTimeMillis()){

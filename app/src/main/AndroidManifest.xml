@@ -28,6 +28,8 @@
         <activity android:name=".DaftarPahlawanKemerdekaan" />
         <activity android:name=".DaftarPahlawanRevolusi" />
         <activity android:name=".Biografi" />
+        <!--    Receiver broadcast    -->
+        <receiver android:name="com.prakpapb2.notif.ReminderBroadcast"/>
     </application>
 
 </manifest>

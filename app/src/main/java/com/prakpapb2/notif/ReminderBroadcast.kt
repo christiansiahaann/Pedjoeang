@@ -24,7 +24,7 @@ class ReminderBroadcast:BroadcastReceiver() {
         val builder = NotificationCompat.Builder(context!!, "notifyHariBesar")//channelId harus sama
             .setContentTitle("${date.toString()} $monthName") //Judul
             .setContentText("Memperingati $name") //Deskripsi
-            .setSmallIcon(R.drawable.ic_launcher_foreground) //Icon notifikasi (logo app)
+            .setSmallIcon(R.drawable.group) //Icon notifikasi (logo app)
             .setLargeIcon(bitmapDrawable) //gambar peringatan hari besar
             .setStyle(
                 NotificationCompat.BigPictureStyle()
