@@ -24,11 +24,13 @@ class FragmentKuisKotlin2 : Fragment() {
     private lateinit var mButtonChoice1: Button
     private lateinit var mButtonChoice2: Button
     private lateinit var mButtonChoice3: Button
+    private lateinit var mButtonChoice4: Button
     private lateinit var mButtonNext: Button
 
     private lateinit var choice1:String
     private lateinit var choice2:String
     private lateinit var choice3:String
+    private lateinit var choice4:String
 
     private lateinit var mAnswer:String
     private var mUserAnswer = ""
@@ -48,6 +50,7 @@ class FragmentKuisKotlin2 : Fragment() {
         mQuestionNumber = bundle.getInt("question", 0)
     }
 
+    @RequiresApi(Build.VERSION_CODES.LOLLIPOP)
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -59,6 +62,7 @@ class FragmentKuisKotlin2 : Fragment() {
         mButtonChoice1 = view.findViewById(R.id.choice1) as Button
         mButtonChoice2 = view.findViewById(R.id.choice2) as Button
         mButtonChoice3 = view.findViewById(R.id.choice3) as Button
+        mButtonChoice3 = view.findViewById(R.id.choice4) as Button
         mButtonNext = view.findViewById(R.id.btn_next) as Button
 
         updateQuestion()
@@ -69,6 +73,7 @@ class FragmentKuisKotlin2 : Fragment() {
 
             mButtonChoice2.backgroundTintList = ColorStateList.valueOf(resources.getColor(R.color.white))
             mButtonChoice3.backgroundTintList = ColorStateList.valueOf(resources.getColor(R.color.white))
+            mButtonChoice4.backgroundTintList = ColorStateList.valueOf(resources.getColor(R.color.white))
         }
 
         mButtonChoice2.setOnClickListener {
@@ -77,6 +82,7 @@ class FragmentKuisKotlin2 : Fragment() {
 
             mButtonChoice1.backgroundTintList = ColorStateList.valueOf(resources.getColor(R.color.white))
             mButtonChoice3.backgroundTintList = ColorStateList.valueOf(resources.getColor(R.color.white))
+            mButtonChoice4.backgroundTintList = ColorStateList.valueOf(resources.getColor(R.color.white))
         }
 
         mButtonChoice3.setOnClickListener {
@@ -85,7 +91,18 @@ class FragmentKuisKotlin2 : Fragment() {
 
             mButtonChoice1.backgroundTintList = ColorStateList.valueOf(resources.getColor(R.color.white))
             mButtonChoice2.backgroundTintList = ColorStateList.valueOf(resources.getColor(R.color.white))
+            mButtonChoice4.backgroundTintList = ColorStateList.valueOf(resources.getColor(R.color.white))
         }
+
+        mButtonChoice4.setOnClickListener {
+            mUserAnswer = choice4
+            mButtonChoice4.backgroundTintList = ColorStateList.valueOf(resources.getColor(R.color.brown))
+
+            mButtonChoice1.backgroundTintList = ColorStateList.valueOf(resources.getColor(R.color.white))
+            mButtonChoice2.backgroundTintList = ColorStateList.valueOf(resources.getColor(R.color.white))
+            mButtonChoice3.backgroundTintList = ColorStateList.valueOf(resources.getColor(R.color.white))
+        }
+
 
         mButtonNext.setOnClickListener {
             if(mUserAnswer === mAnswer){
@@ -112,14 +129,17 @@ class FragmentKuisKotlin2 : Fragment() {
         mButtonChoice1.setText("A. " + mQuestionLibrary.getChoice1(mQuestionNumber))
         mButtonChoice2.setText("B. " + mQuestionLibrary.getChoice2(mQuestionNumber))
         mButtonChoice3.setText("C. " + mQuestionLibrary.getChoice3(mQuestionNumber))
+        mButtonChoice4.setText("D. " + mQuestionLibrary.getChoice4(mQuestionNumber))
 
         choice1 = mQuestionLibrary.getChoice1(mQuestionNumber)
         choice2 = mQuestionLibrary.getChoice2(mQuestionNumber)
         choice3 = mQuestionLibrary.getChoice3(mQuestionNumber)
+        choice4 = mQuestionLibrary.getChoice4(mQuestionNumber)
 
         mButtonChoice1.backgroundTintList = ColorStateList.valueOf(resources.getColor(R.color.white))
         mButtonChoice2.backgroundTintList = ColorStateList.valueOf(resources.getColor(R.color.white))
         mButtonChoice3.backgroundTintList = ColorStateList.valueOf(resources.getColor(R.color.white))
+        mButtonChoice4.backgroundTintList = ColorStateList.valueOf(resources.getColor(R.color.white))
 
         mAnswer = mQuestionLibrary.getCorrectAnswer(mQuestionNumber)
 

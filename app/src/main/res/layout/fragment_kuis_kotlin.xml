@@ -78,6 +78,19 @@
             android:layout_marginHorizontal="32dp"
             android:layout_marginBottom="24dp"
             android:id="@+id/choice3" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="rock"
+            android:textColor="#000"
+            android:backgroundTint="@color/white"
+            android:padding="18dp"
+            android:gravity="left"
+            android:layout_marginHorizontal="32dp"
+            android:layout_marginBottom="24dp"
+            android:id="@+id/choice4" />
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
