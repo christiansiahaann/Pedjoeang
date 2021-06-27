@@ -32,7 +32,7 @@ public class DataPahlawanEn {
             "https://3.bp.blogspot.com/-0b8OK4m2K0k/WIAa-cBDUBI/AAAAAAAAREA/Qt-faNv9tpsbixCBOaI-h5ISFgDhKHGiACLcB/w600/Tokoh%2BPeletak%2BDasar%2BPendidikan%2BNasional.jpg",
             "https://www.matakota.id/uploads/images/news/1501765097362.jpg",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Portret_van_de_schrijver_Multatuli_%28cropped%29.jpg/330px-Portret_van_de_schrijver_Multatuli_%28cropped%29.jpg",
-            "http://3.bp.blogspot.com/-3CQivNjiJqo/TWJXeHI6BfI/AAAAAAAAAV8/1RbC_JMNXtU/s320/cut-nyak-dhien.jpg",
+            "https://3.bp.blogspot.com/-3CQivNjiJqo/TWJXeHI6BfI/AAAAAAAAAV8/1RbC_JMNXtU/s320/cut-nyak-dhien.jpg",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Cut_Nyak_Meutia.jpg/263px-Cut_Nyak_Meutia.jpg",
             "https://www.inhilklik.com/assets/berita/original/83162943273-63828780781-20200218_153258.jpg",
             "https://upload.wikimedia.org/wikipedia/commons/5/53/Sri_Susuhunan_Pakubuwono_VI.jpg",

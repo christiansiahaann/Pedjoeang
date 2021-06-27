@@ -66,8 +66,8 @@ public class DaftarPahlawanEmansipasi extends AppCompatActivity {
             }
         });
 
-        ImageView gambarpahlawan6 = findViewById(R.id.gambarpahlawan6);
-        gambarpahlawan4.setOnClickListener(new View.OnClickListener() {
+        ImageView gambarpahlawan5 = findViewById(R.id.gambarpahlawan5);
+        gambarpahlawan5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(DaftarPahlawanEmansipasi.this, Biografi.class);

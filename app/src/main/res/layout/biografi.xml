@@ -89,7 +89,7 @@
             android:text="TextView"
             android:textColor="#000"
             android:textSize="18dp"
-            android:height="450dp"
+            android:lines="100000"
             />
 
     </ScrollView>

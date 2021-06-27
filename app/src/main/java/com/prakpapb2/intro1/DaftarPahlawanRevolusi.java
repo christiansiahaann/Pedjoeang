@@ -68,7 +68,7 @@ public class DaftarPahlawanRevolusi extends AppCompatActivity {
         });
 
         ImageView gambarpahlawan5 = findViewById(R.id.gambarpahlawan5);
-        gambarpahlawan4.setOnClickListener(new View.OnClickListener() {
+        gambarpahlawan5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(DaftarPahlawanRevolusi.this, Biografi.class);
@@ -78,7 +78,7 @@ public class DaftarPahlawanRevolusi extends AppCompatActivity {
         });
 
         ImageView gambarpahlawan6 = findViewById(R.id.gambarpahlawan6);
-        gambarpahlawan4.setOnClickListener(new View.OnClickListener() {
+        gambarpahlawan6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(DaftarPahlawanRevolusi.this, Biografi.class);
@@ -88,11 +88,11 @@ public class DaftarPahlawanRevolusi extends AppCompatActivity {
         });
 
         ImageView gambarpahlawan7 = findViewById(R.id.gambarpahlawan7);
-        gambarpahlawan4.setOnClickListener(new View.OnClickListener() {
+        gambarpahlawan7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(DaftarPahlawanRevolusi.this, Biografi.class);
-                intent.putExtra(EXTRA_PAHLAWAN, getListDataPahlawan().get(17));
+                intent.putExtra(EXTRA_PAHLAWAN, getListDataPahlawan().get(20));
                 startActivity(intent);
             }
         });
