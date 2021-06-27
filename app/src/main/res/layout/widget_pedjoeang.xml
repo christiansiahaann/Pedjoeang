@@ -1,17 +1,13 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="?attr/appWidgetBackgroundColor"
-    android:padding="@dimen/widget_margin"
-    android:theme="@style/ThemeOverlay.Intro1.AppWidgetContainer">
+    android:padding="@dimen/widget_margin">
 
     <LinearLayout
         android:id="@+id/section_id"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="0dp"
-        android:layout_marginTop="0dp"
-        android:layout_marginRight="0dp"
         android:background="@color/color4"
         android:orientation="horizontal"
         android:padding="2dp">
@@ -44,7 +40,7 @@
             android:background="@color/color1"
             android:text="Buka"
             android:textAllCaps="false"
-            android:textColor="@drawable/custom_button2" />
+            android:textColor="@color/color3" />
     </LinearLayout>
 
     <LinearLayout
@@ -52,10 +48,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/section_id"
-        android:layout_marginStart="0dp"
-        android:layout_marginLeft="0dp"
-        android:layout_marginEnd="0dp"
-        android:layout_marginRight="0dp"
         android:background="@color/color3"
         android:orientation="horizontal"
         android:padding="10dp">
