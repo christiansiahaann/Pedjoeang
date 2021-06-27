@@ -42,6 +42,22 @@ public class WidgetPedjoeang extends AppWidgetProvider {
 
         remoteViews.setOnClickPendingIntent(R.id.button_widget, configPendingIntent);
         appWidgetManager.updateAppWidget(appWidgetIds, remoteViews);
+
+        configIntent = new Intent(context, Biografi.class);
+        configPendingIntent = PendingIntent.getActivity(context, 0, configIntent, 0);
+        remoteViews.setOnClickPendingIntent(R.id.iv_ir_soekarno, configPendingIntent);
+        appWidgetManager.updateAppWidget(appWidgetIds, remoteViews);
+
+        configIntent = new Intent(context, DaftarPahlawanEmansipasi.class);
+        configPendingIntent = PendingIntent.getActivity(context, 0, configIntent, 0);
+        remoteViews.setOnClickPendingIntent(R.id.iv_ra_kartini, configPendingIntent);
+        appWidgetManager.updateAppWidget(appWidgetIds, remoteViews);
+
+        configIntent = new Intent(context, DaftarPahlawanKebangkitan.class);
+        configPendingIntent = PendingIntent.getActivity(context, 0, configIntent, 0);
+        remoteViews.setOnClickPendingIntent(R.id.iv_dr_soetomo, configPendingIntent);
+        appWidgetManager.updateAppWidget(appWidgetIds, remoteViews);
+
     }
 
 }
