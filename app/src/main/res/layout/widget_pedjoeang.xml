@@ -8,7 +8,7 @@
         android:id="@+id/section_id"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/color4"
+        android:background="@color/color8"
         android:orientation="horizontal"
         android:padding="2dp">
 
@@ -18,7 +18,7 @@
             android:layout_height="38dp"
             android:layout_gravity="center"
             android:layout_margin="5dp"
-            android:src="@drawable/logo" />
+            android:src="@drawable/logo2" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -32,12 +32,12 @@
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/button_buka_widget"
-            android:layout_width="55dp"
-            android:layout_height="30dp"
+            android:id="@+id/button_widget"
+            android:layout_width="50dp"
+            android:layout_height="27dp"
             android:layout_gravity="center"
             android:layout_margin="5dp"
-            android:background="@color/color1"
+            android:background="@drawable/custom_button2"
             android:text="Buka"
             android:textAllCaps="false"
             android:textColor="@color/color3" />
