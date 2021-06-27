@@ -1,224 +1,228 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+<ScrollView android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/color3"
-    tools:context="com.prakpapb2.intro1.DaftarPahlawanRevolusi">
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color3"
+        tools:context="com.prakpapb2.intro1.DaftarPahlawanRevolusi">
 
-    <ImageButton
-        android:id="@+id/ib_back"
-        android:layout_width="30dp"
-        android:layout_height="35dp"
-        android:layout_gravity="center"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="60dp"
-        android:background="@android:color/transparent"
-        android:src="@drawable/ic_back"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <ImageButton
+            android:id="@+id/ib_back"
+            android:layout_width="30dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="60dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_back"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
-    <com.veeyaar.supergradienttextview.GradientTextView
-        android:id="@+id/textJenisPahlawan"
-        android:layout_width="115dp"
-        android:layout_height="31dp"
-        android:layout_marginTop="60dp"
-        android:layout_marginEnd="30dp"
-        android:width="16dp"
-        android:height="26dp"
-        android:autoSizeMaxTextSize="22sp"
-        android:fontFamily="@font/poppins"
-        android:text="@string/revolusi"
-        android:textAllCaps="false"
-        android:textSize="22dp"
-        android:textStyle="bold"
-        app:endColor="@color/color5"
-        app:isVertical="false"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.485"
-        app:layout_constraintStart_toEndOf="@+id/ib_back"
-        app:layout_constraintTop_toTopOf="parent"
-        app:startColor="@color/color4" />
+        <com.veeyaar.supergradienttextview.GradientTextView
+            android:id="@+id/textJenisPahlawan"
+            android:layout_width="115dp"
+            android:layout_height="31dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="30dp"
+            android:width="16dp"
+            android:height="26dp"
+            android:autoSizeMaxTextSize="22sp"
+            android:fontFamily="@font/poppins"
+            android:text="@string/revolusi"
+            android:textAllCaps="false"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            app:endColor="@color/color5"
+            app:isVertical="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.485"
+            app:layout_constraintStart_toEndOf="@+id/ib_back"
+            app:layout_constraintTop_toTopOf="parent"
+            app:startColor="@color/color4" />
 
-    <ImageView
-        android:id="@+id/gambarpahlawan1"
-        android:layout_width="150dp"
-        android:layout_height="145dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="72dp"
-        android:src="@drawable/gambar_mayjen_mt_haryono"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textJenisPahlawan"
-        tools:ignore="MissingConstraints" />
+        <ImageView
+            android:id="@+id/gambarpahlawan1"
+            android:layout_width="150dp"
+            android:layout_height="145dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="72dp"
+            android:src="@drawable/gambar_mayjen_mt_haryono"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textJenisPahlawan"
+            tools:ignore="MissingConstraints" />
 
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="12dp"
-        android:fontFamily="@font/roboto"
-        android:text="Mayjen MT Haryono"
-        android:textColor="#000"
-        android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/gambarpahlawan1"
-        tools:ignore="MissingConstraints" />
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/roboto"
+            android:text="Mayjen MT Haryono"
+            android:textColor="#000"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/gambarpahlawan1"
+            tools:ignore="MissingConstraints" />
 
-    <ImageView
-        android:id="@+id/gambarpahlawan2"
-        android:layout_width="149dp"
-        android:layout_height="146dp"
-        android:layout_marginTop="72dp"
-        android:src="@drawable/gambar_jenderal_ahmad_yani"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.642"
-        app:layout_constraintStart_toEndOf="@+id/gambarpahlawan1"
-        app:layout_constraintTop_toBottomOf="@+id/textJenisPahlawan"
-        tools:ignore="MissingConstraints" />
+        <ImageView
+            android:id="@+id/gambarpahlawan2"
+            android:layout_width="149dp"
+            android:layout_height="146dp"
+            android:layout_marginTop="72dp"
+            android:src="@drawable/gambar_jenderal_ahmad_yani"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.642"
+            app:layout_constraintStart_toEndOf="@+id/gambarpahlawan1"
+            app:layout_constraintTop_toBottomOf="@+id/textJenisPahlawan"
+            tools:ignore="MissingConstraints" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="12dp"
-        android:fontFamily="@font/roboto"
-        android:text="Jenderal Ahmad Yani"
-        android:textColor="#000"
-        android:textSize="18sp"
-        app:layout_constraintStart_toEndOf="@+id/textView1"
-        app:layout_constraintTop_toBottomOf="@+id/gambarpahlawan2"
-        tools:ignore="MissingConstraints" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/roboto"
+            android:text="Jenderal Ahmad Yani"
+            android:textColor="#000"
+            android:textSize="18sp"
+            app:layout_constraintStart_toEndOf="@+id/textView1"
+            app:layout_constraintTop_toBottomOf="@+id/gambarpahlawan2"
+            tools:ignore="MissingConstraints" />
 
-    <ImageView
-        android:id="@+id/gambarpahlawan3"
-        android:layout_width="150dp"
-        android:layout_height="145dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="50dp"
-        android:src="@drawable/gambar_mayjen_s_parman"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
-        tools:ignore="MissingConstraints" />
+        <ImageView
+            android:id="@+id/gambarpahlawan3"
+            android:layout_width="150dp"
+            android:layout_height="145dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/gambar_mayjen_s_parman"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            tools:ignore="MissingConstraints" />
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="12dp"
-        android:fontFamily="@font/roboto"
-        android:text="Mayjen S. Parman"
-        android:textColor="#000"
-        android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/gambarpahlawan3"
-        tools:ignore="MissingConstraints" />
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/roboto"
+            android:text="Mayjen S. Parman"
+            android:textColor="#000"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/gambarpahlawan3"
+            tools:ignore="MissingConstraints" />
 
-    <ImageView
-        android:id="@+id/gambarpahlawan4"
-        android:layout_width="149dp"
-        android:layout_height="146dp"
-        android:layout_marginTop="50dp"
-        android:src="@drawable/gambar_mayjen_r_suprapto"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.642"
-        app:layout_constraintStart_toEndOf="@+id/gambarpahlawan3"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
-        tools:ignore="MissingConstraints" />
+        <ImageView
+            android:id="@+id/gambarpahlawan4"
+            android:layout_width="149dp"
+            android:layout_height="146dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/gambar_mayjen_r_suprapto"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.642"
+            app:layout_constraintStart_toEndOf="@+id/gambarpahlawan3"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            tools:ignore="MissingConstraints" />
 
-    <TextView
-        android:id="@id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="12dp"
-        android:fontFamily="@font/roboto"
-        android:text="Mayjen R. Suprapto"
-        android:textColor="#000"
-        android:textSize="18sp"
-        app:layout_constraintStart_toEndOf="@+id/textView3"
-        app:layout_constraintTop_toBottomOf="@+id/gambarpahlawan4"
-        tools:ignore="MissingConstraints" />
+        <TextView
+            android:id="@id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/roboto"
+            android:text="Mayjen R. Suprapto"
+            android:textColor="#000"
+            android:textSize="18sp"
+            app:layout_constraintStart_toEndOf="@+id/textView3"
+            app:layout_constraintTop_toBottomOf="@+id/gambarpahlawan4"
+            tools:ignore="MissingConstraints" />
 
-    <ImageView
-        android:id="@+id/gambarpahlawan5"
-        android:layout_width="150dp"
-        android:layout_height="145dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="50dp"
-        android:src="@drawable/gambar_di_panjaitan"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3"
-        tools:ignore="MissingConstraints" />
+        <ImageView
+            android:id="@+id/gambarpahlawan5"
+            android:layout_width="150dp"
+            android:layout_height="145dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/gambar_di_panjaitan"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3"
+            tools:ignore="MissingConstraints" />
 
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="12dp"
-        android:fontFamily="@font/roboto"
-        android:text="Brigjen DI Panjaitan"
-        android:textColor="#000"
-        android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/gambarpahlawan5"
-        tools:ignore="MissingConstraints" />
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/roboto"
+            android:text="Brigjen DI Panjaitan"
+            android:textColor="#000"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/gambarpahlawan5"
+            tools:ignore="MissingConstraints" />
 
-    <ImageView
-        android:id="@+id/gambarpahlawan6"
-        android:layout_width="149dp"
-        android:layout_height="146dp"
-        android:layout_marginTop="50dp"
-        android:src="@drawable/gambar_brigjen_sutoyo"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.642"
-        app:layout_constraintStart_toEndOf="@+id/gambarpahlawan5"
-        app:layout_constraintTop_toBottomOf="@+id/textView4"
-        tools:ignore="MissingConstraints" />
+        <ImageView
+            android:id="@+id/gambarpahlawan6"
+            android:layout_width="149dp"
+            android:layout_height="146dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/gambar_brigjen_sutoyo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.642"
+            app:layout_constraintStart_toEndOf="@+id/gambarpahlawan5"
+            app:layout_constraintTop_toBottomOf="@+id/textView4"
+            tools:ignore="MissingConstraints" />
 
-    <TextView
-        android:id="@id/textView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="12dp"
-        android:fontFamily="@font/roboto"
-        android:text="Mayjen R. Suprapto"
-        android:textColor="#000"
-        android:textSize="18sp"
-        app:layout_constraintStart_toEndOf="@+id/textView3"
-        app:layout_constraintTop_toBottomOf="@+id/gambarpahlawan6"
-        tools:ignore="MissingConstraints" />
+        <TextView
+            android:id="@id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/roboto"
+            android:text="Mayjen R. Suprapto"
+            android:textColor="#000"
+            android:textSize="18sp"
+            app:layout_constraintStart_toEndOf="@+id/textView3"
+            app:layout_constraintTop_toBottomOf="@+id/gambarpahlawan6"
+            tools:ignore="MissingConstraints" />
 
-    <ImageView
-        android:id="@+id/gambarpahlawan7"
-        android:layout_width="150dp"
-        android:layout_height="145dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="50dp"
-        android:src="@drawable/gambar_lettu_pierre_tendean"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5"
-        tools:ignore="MissingConstraints" />
+        <ImageView
+            android:id="@+id/gambarpahlawan7"
+            android:layout_width="150dp"
+            android:layout_height="145dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/gambar_lettu_pierre_tendean"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5"
+            tools:ignore="MissingConstraints" />
 
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="12dp"
-        android:fontFamily="@font/roboto"
-        android:text="Lettu Pierre Tendean"
-        android:textColor="#000"
-        android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/gambarpahlawan7"
-        tools:ignore="MissingConstraints" />
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/roboto"
+            android:text="Lettu Pierre Tendean"
+            android:textColor="#000"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/gambarpahlawan7"
+            tools:ignore="MissingConstraints" />
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

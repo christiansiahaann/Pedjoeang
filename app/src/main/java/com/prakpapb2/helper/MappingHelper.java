@@ -21,7 +21,7 @@ public class MappingHelper {
             String title = notesCursor.getString(notesCursor.getColumnIndexOrThrow(NAME));
             String description = notesCursor.getString(notesCursor.getColumnIndexOrThrow(DESCRIPTION));
             String photo = notesCursor.getString(notesCursor.getColumnIndexOrThrow(PHOTO));
-            notesList.add(new Pahlawan(id, title, description, photo));
+            notesList.add(new Pahlawan(id, photo, title, description));
         }
 
         return notesList;
