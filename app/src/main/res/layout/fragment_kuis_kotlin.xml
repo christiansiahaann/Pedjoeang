@@ -1,8 +1,14 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/color3"
     tools:context="com.prakpapb2.kuis.FragmentKuisKotlin">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
     <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -94,15 +100,18 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Next"
-            android:textColor="#fff"
-            android:padding="18dp"
-            android:background="@color/brown"
+            android:text="Lewati"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/color3"
+            android:background="@drawable/custom_button2"
             android:layout_gravity="right"
             android:layout_marginHorizontal="32dp"
             android:layout_marginBottom="24dp"
             android:id="@+id/btn_next" />
 
     </LinearLayout>
+    </ScrollView>
 
 </FrameLayout>

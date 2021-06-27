@@ -11,7 +11,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".FavoriteActivity"></activity>
+        <receiver android:name=".WidgetPedjoeang">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_pedjoeang_info" />
+        </receiver>
+
+        <activity android:name=".FavoriteActivity" />
         <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,6 +37,7 @@
         <activity android:name=".DaftarPahlawanEmansipasi" />
         <activity android:name=".DaftarPahlawanKemerdekaan" />
         <activity android:name=".DaftarPahlawanRevolusi" />
+
         <activity android:name=".Biografi" />
         <!--    Receiver broadcast    -->
         <receiver android:name="com.prakpapb2.notif.ReminderBroadcast"/>

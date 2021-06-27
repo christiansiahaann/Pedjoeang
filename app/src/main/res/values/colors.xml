@@ -10,12 +10,17 @@
     <color name="color5">#AB3E16</color>
     <color name="color6">#80F8F3E6</color>
     <color name="color7">#EFAA52</color>
+    <color name="color8">#E7CC8F</color>
     <color name="chiffon">#F8F3E6</color>
     <color name="buttercup">#EFAA52</color>
     <color name="rust">#AB3E16</color>
     <color name="black">#000000</color>
     <color name="brown">#F09117</color>
     <color name="white">#FFFFFF</color>
+    <color name="light_blue_50">#FFE1F5FE</color>
+    <color name="light_blue_200">#FF81D4FA</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
 
 </resources>
 
