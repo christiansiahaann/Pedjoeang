@@ -11,5 +11,7 @@
     <string name="kebangkitan_nasional">Kebangkitan Nasional</string>
     <string name="revolusi">Revolusi</string>
     <string name="emansipasi_wanita">Emansipasi Wanita</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
     <!-- TODO: Remove or change this placeholder text -->
 </resources>
