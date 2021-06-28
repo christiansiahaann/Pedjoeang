@@ -1,5 +1,6 @@
 <FrameLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -11,9 +12,6 @@
         android:layout_height="match_parent">
 
     <LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
@@ -34,39 +32,47 @@
             android:layout_marginBottom="12dp"
             android:id="@+id/question_title" />
 
-        <TextView
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/question"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginHorizontal="32dp"
-            android:text="Which thing is alive?"
-            android:textSize="18sp"
-            android:textColor="@color/black"
-            android:padding="8dp"
-            android:gravity="center"
             android:layout_gravity="center"
+            android:layout_marginHorizontal="35dp"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:padding="8dp"
+            android:fontFamily="@font/poppins"
+            android:text="Which thing is alive?"
             android:textAlignment="center"
-            android:layout_marginBottom="40dp"
-            android:id="@+id/question" />
-
+            android:textColor="@color/black"
+            android:textSize="18sp" />
 
         <Button
+            android:id="@+id/choice1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="bird"
-            android:textColor="#000"
-            android:backgroundTint="@color/white"
-            android:padding="18dp"
-            android:gravity="left"
             android:layout_marginHorizontal="32dp"
             android:layout_marginBottom="24dp"
-            android:id="@+id/choice1" />
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/poppins"
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+            android:padding="18dp"
+            android:text="bird"
+            android:textAllCaps="false"
+            android:textColor="#000"
+            android:textSize="18sp" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="door"
             android:textColor="#000"
+            android:textAllCaps="false"
             android:backgroundTint="@color/white"
+            android:fontFamily="@font/poppins"
+            android:textSize="18sp"
             android:padding="18dp"
             android:gravity="left"
             android:layout_marginHorizontal="32dp"
@@ -79,8 +85,11 @@
             android:text="rock"
             android:textColor="#000"
             android:backgroundTint="@color/white"
+            android:fontFamily="@font/poppins"
+            android:textSize="18sp"
             android:padding="18dp"
             android:gravity="left"
+            android:textAllCaps="false"
             android:layout_marginHorizontal="32dp"
             android:layout_marginBottom="24dp"
             android:id="@+id/choice3" />
@@ -93,6 +102,9 @@
             android:backgroundTint="@color/white"
             android:padding="18dp"
             android:gravity="left"
+            android:textAllCaps="false"
+            android:fontFamily="@font/poppins"
+            android:textSize="18sp"
             android:layout_marginHorizontal="32dp"
             android:layout_marginBottom="24dp"
             android:id="@+id/choice4" />
@@ -100,7 +112,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Lewati"
+            android:text="@string/lewati"
             android:textAllCaps="false"
             android:textStyle="bold"
             android:textSize="20sp"

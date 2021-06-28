@@ -11,4 +11,18 @@
     <string name="kebangkitan_nasional">National Awakening</string>
     <string name="revolusi">Revolution</string>
     <string name="emansipasi_wanita">Emancipation of Women</string>
+    <string name="soal_1">"The female national hero from Central Java is... "</string>
+    <string name="soal_2">Pancasila Sanctity Day is commemorated every .............</string>
+    <string name="soal_3">Raden Soekemi Sosrodihardjo (a teacher in Surabaya, East Java) is married to Ida Ayu Nyoman Rai (from Buleleng, Bali) and has a child. When they were little their children lived with their grandfathers in Tulungagung, East Java. At the age of 14, their child was invited to live in Surabaya by Oemar Said Tjokroaminoto and sent to school at HBS (Hoogere Burger School). Who is the child in question?</string>
+    <string name="soal_4">November 10 is celebrated as Hero\'s Day because on November 10, 1945 there was a big battle in Surabaya between Indonesian troops and British troops. The hero who plays a role in igniting the fighting spirit of the people of Surabaya is ...............</string>
+    <string name="soal_5">He has worked as a teacher of Malay at an elementary school in Ambarawa, principal of an elementary school in Semarang, and administrative assistant at the City Council in Semarang. He also became the caretaker of Budi Utomo, opened a medical practice in Solo, and founded the Raden Ajeng Kartini Club. He is ...............</string>
+    <string name="ulasan">Review</string>
+    <string name="kirim">SEND</string>
+    <string name="lewati">Skip</string>
+    <string name="nilai_kamu">Your value</string>
+    <string name="Pertanyaan_1">Question 1</string>
+    <string name="Pertanyaan_2">Question 1</string>
+    <string name="Pertanyaan_3">Question 1</string>
+    <string name="Pertanyaan_4">Question 1</string>
+    <string name="Pertanyaan_5">Question 1</string>
 </resources>

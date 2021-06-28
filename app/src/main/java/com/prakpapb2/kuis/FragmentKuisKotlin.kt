@@ -4,7 +4,6 @@ import android.annotation.SuppressLint
 import android.content.res.ColorStateList
 import android.os.Build
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -38,7 +37,7 @@ class FragmentKuisKotlin : Fragment() {
     private var mScore = 0
     private var mQuestionNumber = 0
 
-    private var answerList = arrayListOf<Int>(10,10,10,10,10)
+    private var answerList = arrayListOf<Int>(10, 10, 10, 10, 10)
 
     private lateinit var bundle: Bundle
 
@@ -52,8 +51,8 @@ class FragmentKuisKotlin : Fragment() {
 
     @RequiresApi(Build.VERSION_CODES.LOLLIPOP)
     override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
+            inflater: LayoutInflater, container: ViewGroup?,
+            savedInstanceState: Bundle?
     ): View? {
 
         val view: View = inflater.inflate(R.layout.fragment_kuis_kotlin, container, false)
@@ -109,17 +108,17 @@ class FragmentKuisKotlin : Fragment() {
                 if(mQuestionNumber < Soal.mQuestions.size){
                     if(mUserAnswer === mAnswer){
                         mScore += 1
-                        answerList[mQuestionNumber-1] = 1
+                        answerList[mQuestionNumber - 1] = 1
                     } else{
-                        answerList[mQuestionNumber-1] = 0
+                        answerList[mQuestionNumber - 1] = 0
                     }
                     updateQuestion()
                 } else{
                     if(mUserAnswer === mAnswer){
                         mScore += 1
-                        answerList[mQuestionNumber-1] = 1
+                        answerList[mQuestionNumber - 1] = 1
                     }else{
-                        answerList[mQuestionNumber-1] = 0
+                        answerList[mQuestionNumber - 1] = 0
                     }
 
 //                    val intent = Intent(applicationContext, UlasanActivity::class.java)
@@ -152,9 +151,17 @@ class FragmentKuisKotlin : Fragment() {
     @SuppressLint("SetTextI18n")
     @RequiresApi(Build.VERSION_CODES.LOLLIPOP)
     private fun updateQuestion() {
+        val mQuestions = arrayOf(
+                getString(R.string.soal_1),
+                getString(R.string.soal_2),
+                getString(R.string.soal_3),
+                getString(R.string.soal_4),
+                getString(R.string.soal_5),
+                )
+
         mUserAnswer = ""
-        mQuestionView.setText(mQuestionLibrary.getQuestion(mQuestionNumber))
-        mQuestionTitle.setText("Pertanyaan ${mQuestionNumber+1}")
+        mQuestionView.setText(mQuestions.get(mQuestionNumber))
+        mQuestionTitle.setText("Pertanyaan ${mQuestionNumber + 1}")
         mButtonChoice1.setText("A. " + mQuestionLibrary.getChoice1(mQuestionNumber))
         mButtonChoice2.setText("B. " + mQuestionLibrary.getChoice2(mQuestionNumber))
         mButtonChoice3.setText("C. " + mQuestionLibrary.getChoice3(mQuestionNumber))

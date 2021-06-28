@@ -11,7 +11,21 @@
     <string name="kebangkitan_nasional">Kebangkitan Nasional</string>
     <string name="revolusi">Revolusi</string>
     <string name="emansipasi_wanita">Emansipasi Wanita</string>
-    <string name="appwidget_text">EXAMPLE</string>
-    <string name="add_widget">Add widget</string>
+    <string name="appwidget_text" translatable="false">EXAMPLE</string>
+    <string name="add_widget" translatable="false">Add widget</string>
+    <string name="soal_1">Pahlawan nasional wanita yang berasal dari Jawa Tengah adalah ...</string>
+    <string name="soal_2">Hari Kesaktian Pancasila diperingati setiap tanggal .............</string>
+    <string name="soal_3">Raden Soekemi Sosrodihardjo (seorang guru di Surabaya, Jawa Timur) menikah dengan Ida Ayu Nyoman Rai (dari Buleleng, Bali) dan mempunyai seorang anak. Ketika kecil anak mereka tinggal bersama kakeknya di Tulungagung, Jawa Timur. Pada usia 14 tahun, anak mereka diajak  tinggal di Surabaya oleh Oemar Said Tjokroaminoto dan disekolahkan di HBS (Hoogere Burger School). Siapakah anak yang dimaksud?</string>
+    <string name="soal_4">Tanggal 10 November diperingati sebagai Hari Pahlawan karena pada tanggal 10 November 1945 terjadi pertempuran besar di Surabaya antara tentara Indonesia dan pasukan Inggris. Pahlawan yang berperan mengobarkan semangat juang rakyat Surabaya adalah ...................</string>
+    <string name="soal_5">Beliau pernah bekerja sebagai guru bahasa Melayu di sebuah sekolah dasar di Ambarawa, kepala sekolah dasar di Semarang, dan pembantu administrasi pada Dewan Kota di Semarang. Beliau juga menjadi pengurus Budi Utomo, membuka praktik dokter di Solo, dan mendirikan Raden Ajeng Kartini Klub. Beliau adalah ..................</string>
+    <string name="ulasan">Ulasan</string>
+    <string name="kirim">KIRIM</string>
+    <string name="lewati">Lewati</string>
+    <string name="nilai_kamu">Nilai kamu</string>
+    <string name="Pertanyaan_1">Pertanyaan 1</string>
+    <string name="Pertanyaan_2">Pertanyaan 2</string>
+    <string name="Pertanyaan_3">Pertanyaan 3</string>
+    <string name="Pertanyaan_4">Pertanyaan 4</string>
+    <string name="Pertanyaan_5">Pertanyaan 5</string>
     <!-- TODO: Remove or change this placeholder text -->
 </resources>

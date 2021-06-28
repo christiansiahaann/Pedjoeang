@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
                     f = new FragmentHome();
                     break;
                 case R.id.menu_favorit:
-                    f = new FragmentFavorit();
+                    f = new FavFragment();
                     break;
                 case R.id.menu_kuis:
 //                    f = new FragmentKuis();

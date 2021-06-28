@@ -24,6 +24,7 @@ import androidx.annotation.RequiresApi;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.prakpapb2.kuis.FragmentKuisKotlin;
 import com.prakpapb2.notif.Datasource;
 import com.prakpapb2.notif.HariBesar;
@@ -64,7 +65,7 @@ public class FragmentHome extends Fragment implements androidx.appcompat.widget.
         butt1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                replaceFragment(new FragmentFavorit());
+                ((BottomNavigationView) getActivity().findViewById(R.id.bottom_navigation_menu)).setSelectedItemId(R.id.menu_favorit);
             }
         });
         butt2.setOnClickListener(new View.OnClickListener() {

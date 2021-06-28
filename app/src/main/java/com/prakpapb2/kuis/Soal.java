@@ -5,10 +5,10 @@ public class Soal {
     //set pertanyaan
     public static String mQuestions [] = {
             "Pahlawan nasional wanita yang berasal dari Jawa Tengah adalah ...",
-            "Hari Kesaktian Pancasila diperingati setiap tanggal ...",
+            "Hari Kesaktian Pancasila diperingati setiap tanggal .............",
             "Raden Soekemi Sosrodihardjo (seorang guru di Surabaya, Jawa Timur) menikah dengan Ida Ayu Nyoman Rai (dari Buleleng, Bali) dan mempunyai seorang anak. Ketika kecil anak mereka tinggal bersama kakeknya di Tulungagung, Jawa Timur. Pada usia 14 tahun, anak mereka diajak  tinggal di Surabaya oleh Oemar Said Tjokroaminoto dan disekolahkan di HBS (Hoogere Burger School). Siapakah anak yang dimaksud?",
-            "Tanggal 10 November diperingati sebagai Hari Pahlawan karena pada tanggal 10 November 1945 terjadi pertempuran besar di Surabaya antara tentara Indonesia dan pasukan Inggris. Pahlawan yang berperan mengobarkan semangat juang rakyat Surabaya adalah ...",
-            "Beliau pernah bekerja sebagai guru bahasa Melayu di sebuah sekolah dasar di Ambarawa, kepala sekolah dasar di Semarang, dan pembantu administrasi pada Dewan Kota di Semarang. Beliau juga menjadi pengurus Budi Utomo, membuka praktik dokter di Solo, dan mendirikan Raden Ajeng Kartini Klub. Beliau adalah ..."
+            "Tanggal 10 November diperingati sebagai Hari Pahlawan karena pada tanggal 10 November 1945 terjadi pertempuran besar di Surabaya antara tentara Indonesia dan pasukan Inggris. Pahlawan yang berperan mengobarkan semangat juang rakyat Surabaya adalah ...................",
+            "Beliau pernah bekerja sebagai guru bahasa Melayu di sebuah sekolah dasar di Ambarawa, kepala sekolah dasar di Semarang, dan pembantu administrasi pada Dewan Kota di Semarang. Beliau juga menjadi pengurus Budi Utomo, membuka praktik dokter di Solo, dan mendirikan Raden Ajeng Kartini Klub. Beliau adalah .................."
 
     };
 

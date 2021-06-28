@@ -168,5 +168,4 @@ class FragmentKuisKotlin2 : Fragment() {
         }
     }
 
-
 }

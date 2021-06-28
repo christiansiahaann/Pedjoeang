@@ -16,7 +16,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Nilai kamu"
+            android:text="@string/nilai_kamu"
             android:textSize="24sp"
             android:textColor="@color/white"
             android:layout_gravity="center"
@@ -48,7 +48,7 @@
         android:layout_width="wrap_content"
         android:layout_marginHorizontal="32dp"
         android:layout_gravity="center"
-        android:text="Beranda"
+        android:text="@string/beranda"
         android:paddingRight="30dp"
         android:paddingLeft="30dp"
         android:textSize="20sp"
