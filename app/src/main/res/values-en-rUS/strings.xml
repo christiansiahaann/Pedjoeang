@@ -21,8 +21,18 @@
     <string name="lewati">Skip</string>
     <string name="nilai_kamu">Your value</string>
     <string name="Pertanyaan_1">Question 1</string>
-    <string name="Pertanyaan_2">Question 1</string>
-    <string name="Pertanyaan_3">Question 1</string>
-    <string name="Pertanyaan_4">Question 1</string>
-    <string name="Pertanyaan_5">Question 1</string>
+    <string name="Pertanyaan_2">Question 2</string>
+    <string name="Pertanyaan_3">Question 3</string>
+    <string name="Pertanyaan_4">Question 4</string>
+    <string name="Pertanyaan_5">Question 5</string>
+    <string name="edukasi">EDUCATION</string>
+    <string name="intro_1">Studying the Types of Heroes \n in Indonesia</string>
+    <string name="intro_2">Studying the Stories of Heroes in \n Indonesia in Deep</string>
+    <string name="intro_3">Start Quiz to Test Understanding \n of Heroes in Indonesia </string>
+    <string name="lanjut">Continue</string>
+    <string name="biografi">BIOGRAPHY</string>
+    <string name="kuis_1">QUIZ</string>
+    <string name="nilaibagus">Keep it up and keep learning</string>
+    <string name="nilaijelek">Keep spirit and keep learning</string>
+
 </resources>

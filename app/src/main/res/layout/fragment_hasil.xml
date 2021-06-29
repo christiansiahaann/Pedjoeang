@@ -41,7 +41,7 @@
         android:layout_marginTop="30dp"
         android:textSize="24sp"
         android:textColor="@color/black"
-        android:text="Pesan Pesan"/>
+        android:text="pesan pesan"/>
 
     <Button
         android:id="@+id/btnBelajarLagi"
@@ -58,5 +58,4 @@
         android:layout_marginTop="50dp"
         android:textColor="@color/color3"
         android:layout_height="wrap_content"/>
-
 </LinearLayout>

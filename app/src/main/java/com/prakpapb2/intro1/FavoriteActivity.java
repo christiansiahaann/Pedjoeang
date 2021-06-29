@@ -25,7 +25,6 @@ public class FavoriteActivity extends AppCompatActivity {
     PahlawanHelper pahlawanHelper;
     ArrayList<Pahlawan> listPahlawan;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -57,7 +56,6 @@ public class FavoriteActivity extends AppCompatActivity {
             showRecyclerList(listPahlawan);
         }
     }
-
 
     private void showRecyclerList(ArrayList<Pahlawan> list) {
         LinearLayoutManager layoutManager = new LinearLayoutManager(this);

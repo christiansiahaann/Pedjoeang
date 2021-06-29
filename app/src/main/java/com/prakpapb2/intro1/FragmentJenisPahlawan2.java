@@ -106,6 +106,5 @@ public class FragmentJenisPahlawan2 extends Fragment {
                 startActivity(intent);
             }
         });
-
     }
 }

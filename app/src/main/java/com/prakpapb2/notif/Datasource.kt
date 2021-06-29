@@ -21,7 +21,6 @@ class Datasource {
             HariBesar(28,10,"Oktober", "Hari Sumpah Pemuda", R.drawable.hari_besar_merahputih),
             HariBesar(10,11,"November", "Hari Pahlawan", R.drawable.hari_pahlawan),
 
-
         )
     }
 }

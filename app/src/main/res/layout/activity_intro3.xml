@@ -21,7 +21,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:text="KUIS"
+        android:text="@string/kuis_1"
         android:textColor="@color/color1"
         android:textSize="25dp"
         android:textStyle="bold" />
@@ -32,7 +32,7 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:layout_marginTop="30dp"
-        android:text="Mulai Kuis untuk Menguji Pemahaman\nTerhadap Pahlawan di Indonesia"
+        android:text="@string/intro_3"
         android:textColor="@color/color2"
         android:textSize="20dp"/>
 
@@ -72,7 +72,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/custom_button2"
             android:layout_marginLeft="70dp"
-            android:text="Lanjut"
+            android:text="@string/lanjut"
             android:textSize="20dp"
             android:textAllCaps="false"
             android:textStyle="bold"

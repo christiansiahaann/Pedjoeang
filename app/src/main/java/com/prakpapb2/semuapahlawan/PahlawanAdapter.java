@@ -41,7 +41,6 @@ public class PahlawanAdapter extends RecyclerView.Adapter<PahlawanAdapter.ViewHo
         Pahlawan course = listCourses.get(position);
         holder.bind(course);
     }
-
     @Override
     public int getItemCount() {
         return listCourses.size();

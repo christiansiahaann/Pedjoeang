@@ -24,7 +24,6 @@ public class Biografi extends AppCompatActivity {
     static String NAME = "title";
     static String DESCRIPTION = "description";
     static String PHOTO = "photo";
-
     private PahlawanHelper pahlawanHelper;
     private Pahlawan pahlawan;
     public static final String EXTRA_PAHLAWAN = "extra_pahlawan";

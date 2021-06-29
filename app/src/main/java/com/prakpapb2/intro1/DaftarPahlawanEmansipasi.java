@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.ImageView;
-
 import androidx.appcompat.app.AppCompatActivity;
 
 import static com.prakpapb2.intro1.Biografi.EXTRA_PAHLAWAN;

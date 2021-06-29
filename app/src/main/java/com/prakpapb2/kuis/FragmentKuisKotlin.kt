@@ -18,7 +18,6 @@ import com.prakpapb2.intro1.R
 class FragmentKuisKotlin : Fragment() {
 
     private val mQuestionLibrary: Soal = Soal()
-
     private lateinit var mQuestionView: TextView
     private lateinit var mQuestionTitle: TextView
     private lateinit var mButtonChoice1: Button
@@ -26,12 +25,12 @@ class FragmentKuisKotlin : Fragment() {
     private lateinit var mButtonChoice3: Button
     private lateinit var mButtonChoice4: Button
     private lateinit var mButtonNext: Button
+    private var nilai =0
 
     private lateinit var choice1:String
     private lateinit var choice2:String
     private lateinit var choice3:String
     private lateinit var choice4:String
-
     private lateinit var mAnswer:String
     private var mUserAnswer = ""
     private var mScore = 0
@@ -158,10 +157,18 @@ class FragmentKuisKotlin : Fragment() {
                 getString(R.string.soal_4),
                 getString(R.string.soal_5),
                 )
+        val mQuestionsTitle = arrayOf(
+                getString(R.string.Pertanyaan_1),
+                getString(R.string.Pertanyaan_2),
+                getString(R.string.Pertanyaan_3),
+                getString(R.string.Pertanyaan_4),
+                getString(R.string.Pertanyaan_5),
+        )
+
 
         mUserAnswer = ""
         mQuestionView.setText(mQuestions.get(mQuestionNumber))
-        mQuestionTitle.setText("Pertanyaan ${mQuestionNumber + 1}")
+        mQuestionTitle.setText(mQuestionsTitle.get(mQuestionNumber))
         mButtonChoice1.setText("A. " + mQuestionLibrary.getChoice1(mQuestionNumber))
         mButtonChoice2.setText("B. " + mQuestionLibrary.getChoice2(mQuestionNumber))
         mButtonChoice3.setText("C. " + mQuestionLibrary.getChoice3(mQuestionNumber))
@@ -186,6 +193,7 @@ class FragmentKuisKotlin : Fragment() {
         }
     }
 
+
     private fun replaceFragment(newFragment: Fragment) {
         val trasection = requireFragmentManager().beginTransaction()
         if (!newFragment.isAdded) {
@@ -203,4 +211,5 @@ class FragmentKuisKotlin : Fragment() {
             trasection.show(newFragment)
         }
     }
+
 }

@@ -27,5 +27,14 @@
     <string name="Pertanyaan_3">Pertanyaan 3</string>
     <string name="Pertanyaan_4">Pertanyaan 4</string>
     <string name="Pertanyaan_5">Pertanyaan 5</string>
+    <string name="edukasi">EDUKASI</string>
+    <string name="lanjut">Lanjut</string>
+    <string name="biografi">BIOGRAFI</string>
+    <string name="kuis_1">KUIS</string>
+    <string name="intro_1">Mempelajari Jenis-Jenis Pahlawan\ndi Indonesia</string>
+    <string name="intro_2">Mempelajari Kisah-Kisah Pahlawan di\nIndonesia Secara Mendalam</string>
+    <string name="intro_3">Mulai Kuis untuk Menguji Pemahaman\nTerhadap Pahlawan di Indonesia</string>
+    <string name="nilaibagus">Pertahankan dan terus belajar</string>
+    <string name="nilaijelek">Tetap semangat dan terus belajar</string>
     <!-- TODO: Remove or change this placeholder text -->
 </resources>

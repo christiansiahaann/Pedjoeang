@@ -26,6 +26,7 @@ public class DaftarPahlawanKebangkitan extends AppCompatActivity {
             }
         });
 
+
         ImageView gambarpahlawan1 = findViewById(R.id.gambarpahlawan1);
         gambarpahlawan1.setOnClickListener(new View.OnClickListener() {
             @Override

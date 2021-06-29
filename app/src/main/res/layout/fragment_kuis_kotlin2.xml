@@ -91,5 +91,4 @@
             android:id="@+id/btn_next" />
 
     </LinearLayout>
-
 </FrameLayout>

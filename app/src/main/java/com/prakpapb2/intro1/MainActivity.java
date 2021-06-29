@@ -51,5 +51,6 @@ public class MainActivity extends AppCompatActivity {
                 R.id.navigation_home, R.id.navigation_favorit, R.id.navigation_kuis)
                 .build();
         bottomNavigationView.setSelectedItemId(R.id.menu_home);
+
     }
 }

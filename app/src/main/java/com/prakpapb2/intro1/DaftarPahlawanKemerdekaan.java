@@ -26,6 +26,7 @@ public class DaftarPahlawanKemerdekaan extends AppCompatActivity {
             }
         });
 
+
         ImageView gambarpahlawan1 = findViewById(R.id.gambarpahlawan1);
         gambarpahlawan1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -75,6 +76,5 @@ public class DaftarPahlawanKemerdekaan extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
     }
 }

@@ -17,7 +17,6 @@ public class Intro1 extends AppCompatActivity implements View.OnClickListener {
         Button buttonIntro1 = findViewById(R.id.button_intro1);
         buttonIntro1.setOnClickListener(this);
     }
-
     @Override
     public void onClick(View v) {
         switch (v.getId()) {

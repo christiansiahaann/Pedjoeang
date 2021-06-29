@@ -42,5 +42,4 @@ public class WidgetPedjoeang extends AppWidgetProvider {
         appWidgetManager.updateAppWidget(appWidgetIds, remoteViews);
 
     }
-
 }

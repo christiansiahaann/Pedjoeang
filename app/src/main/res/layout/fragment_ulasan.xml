@@ -91,7 +91,6 @@
             android:textColor="@color/black"
             android:textSize="32sp"
             android:textStyle="bold" />
-
     </LinearLayout>
 
     <Button

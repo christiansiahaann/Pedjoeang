@@ -21,7 +21,6 @@ public class FavFragment extends Fragment {
     public FavFragment() {
         // Required empty public constructor
     }
-
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

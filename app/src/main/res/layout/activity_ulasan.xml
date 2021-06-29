@@ -170,5 +170,4 @@
             android:textSize="20dp"
             tools:ignore="MissingConstraints" />
     </LinearLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>

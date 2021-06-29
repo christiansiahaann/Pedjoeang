@@ -30,6 +30,7 @@ public class FragmentFavorit extends Fragment {
     ArrayList<Pahlawan> listPahlawan;
     TextView textViewFavoritKosong;
 
+
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -68,7 +69,6 @@ public class FragmentFavorit extends Fragment {
             showRecyclerList(listPahlawan);
         }
     }
-
 
     private void showRecyclerList(ArrayList<Pahlawan> list) {
         GridLayoutManager layoutManager = new GridLayoutManager(getContext(), 2);

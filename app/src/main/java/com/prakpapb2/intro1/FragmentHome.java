@@ -153,9 +153,6 @@ public class FragmentHome extends Fragment implements androidx.appcompat.widget.
         }
     }
 
-
-
-
     @RequiresApi(api = Build.VERSION_CODES.N)
     @Override
     public boolean onMenuItemClick(MenuItem item) {

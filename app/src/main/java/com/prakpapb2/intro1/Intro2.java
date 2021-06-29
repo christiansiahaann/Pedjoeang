@@ -18,6 +18,7 @@ public class Intro2 extends AppCompatActivity implements View.OnClickListener {
         buttonIntro2.setOnClickListener(this);
     }
 
+
     @Override
     public void onClick(View v) {
         switch (v.getId()) {

@@ -37,6 +37,7 @@ public class DaftarPahlawanRevolusi extends AppCompatActivity {
             }
         });
 
+
         ImageView gambarpahlawan2 = findViewById(R.id.gambarpahlawan2);
         gambarpahlawan2.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -96,6 +97,5 @@ public class DaftarPahlawanRevolusi extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
     }
 }

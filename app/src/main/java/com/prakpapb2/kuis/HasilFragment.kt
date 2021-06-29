@@ -20,7 +20,6 @@ class HasilFragment : Fragment() {
 
     private var nilai =0
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         bundle = requireArguments()
@@ -41,15 +40,9 @@ class HasilFragment : Fragment() {
         txtNilai.setText(nilai.toString())
 
         if (nilai>60) {
-            txtPesan.setText("Pertahankan\n" +
-                    "dan \n" +
-                    "terus belajar"
-            )
+            txtPesan.setText(getString(R.string.nilaibagus))
         } else {
-            txtPesan.setText("Tetap semangat\n" +
-                    "dan \n" +
-                    "terus belajar"
-            )
+            txtPesan.setText(getString(R.string.nilaijelek))
         }
 
         //kembali ke beranda

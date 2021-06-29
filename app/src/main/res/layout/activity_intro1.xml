@@ -21,7 +21,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:text="EDUKASI"
+        android:text="@string/edukasi"
         android:textColor="@color/color1"
         android:textSize="25dp"
         android:textStyle="bold" />
@@ -32,7 +32,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:gravity="center_horizontal"
-        android:text="Mempelajari Jenis-Jenis Pahlawan\ndi Indonesia"
+        android:text="@string/intro_1"
         android:textColor="@color/color2"
         android:textSize="20dp" />
 
@@ -72,7 +72,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="70dp"
             android:background="@drawable/custom_button2"
-            android:text="Lanjut"
+            android:text="@string/lanjut"
             android:textSize="20dp"
             android:textStyle="bold"
             android:textAllCaps="false"
