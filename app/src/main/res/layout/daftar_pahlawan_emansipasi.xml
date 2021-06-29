@@ -25,11 +25,10 @@
 
         <com.veeyaar.supergradienttextview.GradientTextView
             android:id="@+id/textJenisPahlawan"
-            android:layout_width="306dp"
-            android:layout_height="34dp"
-            android:layout_marginStart="50dp"
+            android:layout_width="302dp"
+            android:layout_height="35dp"
             android:layout_marginTop="60dp"
-            android:layout_marginEnd="30dp"
+            android:layout_marginEnd="16dp"
             android:width="16dp"
             android:height="26dp"
             android:autoSizeMaxTextSize="22sp"
@@ -42,8 +41,8 @@
             app:endColor="@color/color5"
             app:isVertical="false"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.56"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/ib_back"
             app:layout_constraintTop_toTopOf="parent"
             app:startColor="@color/color4"
             tools:ignore="MissingConstraints" />
