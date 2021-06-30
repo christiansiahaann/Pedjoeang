@@ -22,7 +22,7 @@
         android:layout_width="254dp"
         android:layout_height="71dp"
         android:layout_marginTop="66dp"
-        android:text="Belum Ada yang Ditambahkan ke Favorit"
+        android:text="@string/belum_ada_yang_ditambahkan_ke_favorit"
         android:textAlignment="center"
         android:textColor="#545454"
         android:textSize="18sp"
